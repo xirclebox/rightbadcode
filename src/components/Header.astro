@@ -1,18 +1,21 @@
 ---
-import { SITE_TITLE } from '../consts';
 import HeaderLink from './HeaderLink/HeaderLink.astro';
-
+import logo from '../assets/rightbadcode-publication-logo-light.jpg';
 ---
 
 <header>
 	<nav>
-		<h2><a href="/">{SITE_TITLE}</a></h2>
+		<h1 class="rbc-logo__heading">
+			<a href="/" class="rbc-logo__link">
+				<img src={logo.src} class="rbc-logo__image" alt="rightbadcode logo"/>
+			</a>
+		</h1>
 		<div class="internal-links">
 			<HeaderLink href="/">Home</HeaderLink>
 			<HeaderLink href="/about">About</HeaderLink>
 		</div>
-		<div class="social-links">
-			<a href="https://m.webtoo.ls/@astro" target="_blank">
+		<div class="rbc-header-social__links">
+			<a href="https://m.webtoo.ls/@astro" class="rbc-header-social__link" target="_blank">
 				<span class="sr-only">Follow Astro on Mastodon</span>
 				<svg viewBox="0 0 16 16" aria-hidden="true" width="32" height="32"
 					><path
@@ -21,7 +24,7 @@ import HeaderLink from './HeaderLink/HeaderLink.astro';
 					></path></svg
 				>
 			</a>
-			<a href="https://twitter.com/astrodotbuild" target="_blank">
+			<a href="https://twitter.com/astrodotbuild" class="rbc-header-social__link" target="_blank">
 				<span class="sr-only">Follow Astro on Twitter</span>
 				<svg viewBox="0 0 16 16" aria-hidden="true" width="32" height="32"
 					><path
@@ -30,7 +33,7 @@ import HeaderLink from './HeaderLink/HeaderLink.astro';
 					></path></svg
 				>
 			</a>
-			<a href="https://github.com/withastro/astro" target="_blank">
+			<a href="https://github.com/withastro/astro" class="rbc-header-social__link"target="_blank">
 				<span class="sr-only">Go to Astro's GitHub repo</span>
 				<svg viewBox="0 0 16 16" aria-hidden="true" width="32" height="32"
 					><path
@@ -58,23 +61,20 @@ import HeaderLink from './HeaderLink/HeaderLink.astro';
 	h2 a.active {
 		text-decoration: none;
 	}
-	nav {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-	}
-	nav a {
+	
+	nav .HeaderLink {
 		padding: 1em 0.5em;
 		color: var(--black);
 		border-bottom: 4px solid transparent;
 		text-decoration: none;
 	}
-	nav a.active {
+	nav .HeaderLink.active {
 		text-decoration: none;
 		border-bottom-color: var(--accent);
 	}
-	.social-links,
-	.social-links a {
+	.rbc-header-social__links,
+	.rbc-header-social__link {
+		padding: 0 0.5em;
 		display: flex;
 	}
 	@media (max-width: 720px) {
