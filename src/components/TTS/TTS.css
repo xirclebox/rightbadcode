@@ -1,43 +1,23 @@
+@import "../../styles/colors.css";
+
 /* ---------- Design tokens ---------- */
 .tts-player {
-  --tts-bg: #faf9f7;
-  --tts-bg-hover: #f0efec;
-  --tts-border: #d6d3cd;
-  --tts-text: #2c2926;
-  --tts-muted: #6b6560;
-  --tts-accent: #b44d2d;
-  --tts-accent-hover: #9a3f23;
-  --tts-accent-light: #fceee8;
-  --tts-track: #e4e1dc;
-  --tts-radius: 10px;
-  --tts-font: "Charter", "Bitstream Charter", "Sitka Text", Cambria, serif;
-  --tts-font-ui: "Avenir Next", "Segoe UI", system-ui, sans-serif;
-  --tts-focus-ring: 0 0 0 2px #fff, 0 0 0 4px var(--tts-accent);
-}
-
-@media (prefers-color-scheme: dark) {
-  .tts-player {
-    --tts-bg: #1e1c1a;
-    --tts-bg-hover: #2a2825;
-    --tts-border: #3d3935;
-    --tts-text: #e8e4df;
-    --tts-muted: #9b9590;
-    --tts-accent: #e0764e;
-    --tts-accent-hover: #f08a62;
-    --tts-accent-light: #2e2220;
-    --tts-track: #3d3935;
-    --tts-focus-ring: 0 0 0 2px #1e1c1a, 0 0 0 4px var(--tts-accent);
-  }
+  --tts-bg: var(--dark);
+  --tts-bg-hover: #2a2825;
+  --tts-border: var(--eggplant);
+  --tts-text: #e8e4df;
+  --tts-muted: #9b9590;
+  --tts-accent: var(--accent);
+  --tts-accent-hover: #000000;
+  --tts-accent-light: #2e2220;
+  --tts-track: #3d3935;
+  --tts-focus-ring: 0 0 0 2px #1e1c1a, 0 0 0 4px var(--tts-accent);
 }
 
 /* ---------- Layout ---------- */
 .tts-player {
-  font-family: var(--tts-font-ui);
-  color: var(--tts-text);
-  max-width: 40rem;
+  color: var(--body-text);
   margin: 2rem auto;
-  border: 1.5px solid var(--tts-border);
-  border-radius: var(--tts-radius);
   background: var(--tts-bg);
   padding: 1.25rem 1.5rem;
   line-height: 1.4;
@@ -62,12 +42,10 @@
 }
 
 .tts-title {
-  color: #e4e1dc;
-  font-family: var(--tts-font);
-  font-size: 1rem;
+  color: var(--body-text);
+  font-size: 1.25rem;
   font-weight: 600;
   margin: 0;
-  letter-spacing: -0.01em;
 }
 
 /* ---------- Controls row ---------- */
@@ -118,7 +96,7 @@
 .tts-play {
   background: var(--tts-accent);
   border-color: var(--tts-accent);
-  color: #fff;
+  color: var(--dark);
 }
 
 .tts-play:hover:not(:disabled) {
@@ -172,44 +150,41 @@
 .tts-progress-fill {
   height: 100%;
   width: 0%;
-  background: var(--tts-accent);
+  background: var(--accent);
   border-radius: 999px;
   transition: width 0.3s linear;
 }
 
 .tts-time {
-  font-size: 0.78rem;
+  font-size: 1.25rem;
   font-variant-numeric: tabular-nums;
-  color: var(--tts-muted);
   min-width: 2.6rem;
   text-align: right;
   flex-shrink: 0;
+  color: var(--light);
 }
 
 /* ---------- Speed control ---------- */
 .tts-speed-group {
   display: flex;
   align-items: center;
-  gap: 0.35rem;
+  gap: 1rem;
   margin-left: auto;
   flex-shrink: 0;
 }
 
 .tts-speed-label {
-  font-size: 0.78rem;
-  color: var(--tts-muted);
+  font-size: 1rem;
   font-weight: 500;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .tts-speed-select {
   font-family: var(--tts-font-ui);
-  font-size: 0.82rem;
+  font-size: 1.25rem;
   font-weight: 600;
   padding: 0.3rem 0.45rem;
-  border: 1.5px solid var(--tts-border);
-  border-radius: 6px;
+  border: 1px solid var(--tts-border);
   background: var(--tts-bg);
   color: var(--tts-text);
   cursor: pointer;

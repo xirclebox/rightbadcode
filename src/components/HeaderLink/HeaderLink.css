@@ -1,9 +1,12 @@
 .HeaderLink {
   display: inline-block;
   text-decoration: none;
+  padding: 1em 0.5em;
+  border-bottom: 4px solid transparent;
 
   &.active {
     font-weight: bolder;
     text-decoration: underline;
+    border-bottom-color: var(--accent);
   }
 }

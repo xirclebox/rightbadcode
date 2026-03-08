@@ -1,33 +1,34 @@
 ---
 title: "Accessibility Conformance Reports: Setting Expectations"
-description: "An Accessibility Conformance Report (ACR), more commonly referred to as a VPAT® (Voluntary Product Accessibility Template), is a report that’s typically completed by an Accessibility Professional. It’s an important document to have, and companies should understand what they are and what they are not."
-pubDate: "January 19, 2026"
-heroImage: "../../assets/acr-expectations.jpg"
+description: ""
+author: "Homer Gaines, CPACC"
+pubDate: January 19, 2026
+tags: [A11y, ACR, VPAT, Process]
+draft: false
 ---
 
-| Acronym | Definition                             |
-| ------- | -------------------------------------- |
-| ACR     | Accessibility Conformance Report VPAT® |
-
-Voluntary Product Accessibility Template
+| Acronym | Definition                               |
+| ------- | ---------------------------------------- |
+| ACR     | Accessibility Conformance Report         |
+| VPAT®   | Voluntary Product Accessibility Template |
 
 An Accessibility Conformance Report (ACR), more commonly referred to as a VPAT® (Voluntary Product Accessibility Template), is a report that’s typically completed by an Accessibility Professional. It’s an important document to have, and companies should understand what they are and what they are not.
 
-For organizations looking to purchase software, technology, or services, ACRs based on the VPAT provide a standardized way to determine whether a product meets their accessibility requirements before committing to a purchase. Many government agencies and large companies are legally required to procure accessible technology, so these reports help them make informed decisions.
+For organizations looking to purchase software, technology, or services, ACRs based on the VPAT provide a standardized way to determine whether a product meets their accessibility requirements before committing to a purchase. Many government agencies and large companies are [legally required to procure accessible technology](https://www.ada.gov/resources/2024-03-08-web-rule/), so these reports help them make informed decisions.
 
-Produced by the Information Technology Industry Council (ITI), there are currently five variations of the VPAT to choose from:
+Produced by the [Information Technology Industry Council](https://www.itic.org/) (ITI), there are currently [five variations of the VPAT](https://www.itic.org/policy/accessibility/vpat) to choose from:
 
-- VPAT 2.5Rev EU (April 2025)
-- VPAT 2.5Rev INT (April 2025)
-- VPAT 2.5Rev 508 (April 2025)
-- VPAT 2.5Rev WCAG (April 2025)
-- VPAT 2.5Rev Change Tracking (April 2025)
+- **VPAT 2.5Rev EU (April 2025)**
+- **VPAT 2.5Rev INT (April 2025)**
+- **VPAT 2.5Rev 508 (April 2025)**
+- **VPAT 2.5Rev WCAG (April 2025)**
+- **VPAT 2.5Rev Change Tracking (April 2025)**
 
-Depending on which template you choose, within each VPAT® are criteria that align with the Web Content Accessibility Guidelines (WCAG), Section 508, or EN 301 549. Each of these criteria is evaluated and given a conformance level of “Supports”, “Partially supports”, Does not support”, “Not applicable”, or “Not evaluated”. The result of completing a VPAT is known as an ACR.
+Depending on which template you choose, within each VPAT® are criteria that align with the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/WCAG22/Understanding/), [Section 508](https://www.section508.gov/manage/laws-and-policies/), or [EN 301 549](https://digital-strategy.ec.europa.eu/en/policies/web-accessibility-directive-standards-and-harmonisation). Each of these criteria is evaluated and given a conformance level of “Supports”, “Partially supports”, Does not support”, “Not applicable”, or “Not evaluated”. The result of completing a VPAT is known as an ACR.
 
-| Criteria                         | Conformance Level | Remarks and Explanations |
-| -------------------------------- | ----------------- | ------------------------ |
-| 1.1.1 Non-text Content (Level A) | Supports          |
+| Criteria                                                                                                                                                         | Conformance Level | Remarks and Explanations |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- | ------------------------ |
+| [1.1.1 Non-text Content](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content) [(Level A)](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content) | Supports          |                          |
 
 For vendors, this is great because having an ACR shows a commitment to accessibility even when all the criteria aren’t fully met. Being upfront about your product’s limitations is often better than making vague or misleading accessibility claims. This level of transparency also helps to build trust and credibility. ACRs serve as documentation that organizations are meeting accessibility standards. This becomes crucial if accessibility issues lead to complaints or legal action, as the report shows what is known and discloses specific gaps where the product doesn’t meet accessibility standards.
 
@@ -39,8 +40,7 @@ The ACR provides a high-level snapshot of your product’s accessibility support
 
 Here are my recommendations:
 
-For products that receive multiple updates every month, consider scheduling an accessibility audit and an ACR update every 3 to 6 months.
-
-For much slower release cycles, consider every 6 to 12 months or when a major update is shipped.
+- For products that receive multiple updates every month, consider scheduling an accessibility audit and an ACR update every 3 to 6 months.
+- For much slower release cycles, consider every 6 to 12 months or when a major update is shipped.
 
 So again, having an ACR is great. But also having realistic expectations for the ACR and recognizing that accessibility conformance is a product-life commitment, not just a one-off project, is equally important.

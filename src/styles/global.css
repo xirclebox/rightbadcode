@@ -1,125 +1,145 @@
-:root {
-  --accent: #ae00a2;
-  --accent-dark: #000d8a;
-  --black: 15, 18, 25;
-  --gray: 96, 115, 159;
-  --gray-light: 229, 233, 240;
-  --gray-dark: 34, 41, 57;
-  --gray-gradient: rgba(var(--gray-light), 50%), #fff;
-  --box-shadow:
-    0 2px 6px rgba(var(--gray), 25%), 0 8px 24px rgba(var(--gray), 33%),
-    0 16px 32px rgba(var(--gray), 33%);
-}
-@font-face {
-  font-family: "Atkinson";
-  src: url("/fonts/atkinson-regular.woff") format("woff");
+@import "./colors.css";
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Atkinson";
-  src: url("/fonts/atkinson-bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-body {
-  font-family: "Atkinson", sans-serif;
   margin: 0;
   padding: 0;
   text-align: left;
-  background: linear-gradient(var(--gray-gradient)) no-repeat;
+  background: var(--site-background);
   background-size: 100% 600px;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  color: rgb(var(--gray-dark));
-  font-size: 20px;
+  color: var(--body-copy);
+  font-size: 1.25rem;
   line-height: 1.7;
 }
+
 main {
-  width: 720px;
-  max-width: calc(100% - 2em);
-  margin: auto;
-  padding: 3em 1em;
+  width: calc(100% - 2em);
+  max-width: 100%;
+  margin: 0;
 }
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
   margin: 0 0 0.5rem 0;
-  color: rgb(var(--black));
+  color: var(--soft-snow);
   line-height: 1.2;
 }
-/* h1 {
+
+h1 {
   font-size: 3.052em;
 }
+
 h2 {
   font-size: 2.441em;
 }
+
 h3 {
   font-size: 1.953em;
 }
+
 h4 {
   font-size: 1.563em;
 }
+
 h5 {
   font-size: 1.25em;
-} */
+}
+
 strong {
   font-weight: 700;
 }
+
 a {
-  color: var(--accent);
+  color: var(--link-color);
+  &:hover,
+  &:active,
+  &:focus {
+    color: var(--link-color);
+  }
 }
-a:hover {
-  color: var(--accent);
-}
+
 p {
   margin-bottom: 1em;
 }
-.prose p {
-  margin-bottom: 2em;
+
+.prose {
+  width: 720px;
+  max-width: calc(100% - 2em);
+  margin: auto;
+  padding: 1em;
+
+  p {
+    margin-bottom: 2em;
+    color: var(--body-copy);
+  }
 }
+
 textarea {
   width: 100%;
   font-size: 16px;
 }
+
 input {
   font-size: 16px;
 }
+
 table {
   width: 100%;
 }
+
 img {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
 }
+
 code {
-  padding: 2px 5px;
-  background-color: rgb(var(--gray-light));
-  border-radius: 2px;
+  padding: 0.125rem 0.5rem;
+  background: var(--code-background);
+  color: var(--light);
 }
+
 pre {
   padding: 1.5em;
   border-radius: 8px;
+  background-color: var(--dark);
 }
+
 pre > code {
   all: unset;
 }
+
 blockquote {
   border-left: 4px solid var(--accent);
   padding: 0 0 0 20px;
   margin: 0;
   font-size: 1.333em;
 }
+
 hr {
   border: none;
   border-top: 1px solid rgb(var(--gray-light));
 }
+
+mark {
+  background-color: var(--soft-lavender);
+  color: var(--dark);
+  padding: 0.125rem 0.5rem;
+}
+
 @media (max-width: 720px) {
   body {
     font-size: 18px;
@@ -152,7 +172,7 @@ hr {
   }
 
   .rbc-logo__image {
-    width: 192px;
+    width: 256px;
   }
 }
 
@@ -160,4 +180,46 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+/* table.css */
+
+:has(> table) {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+table {
+  border-collapse: collapse;
+  inline-size: 100%;
+  font-size: 1rem;
+
+  & thead {
+    border-block-end: 2px solid #38325a;
+  }
+
+  & tbody tr {
+    border-block-end: 1px solid #e0e0e0;
+
+    &:last-child {
+      border-block-end: none;
+    }
+
+    &:hover {
+      background-color: var(--dark);
+    }
+  }
+
+  & th,
+  & td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  & th {
+    font-weight: 700;
+    font-size: 1.5rem;
+    white-space: nowrap;
+  }
 }
