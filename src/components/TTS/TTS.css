@@ -82,11 +82,6 @@
   color: var(--tts-accent);
 }
 
-.tts-btn:focus-visible {
-  outline: none;
-  box-shadow: var(--tts-focus-ring);
-}
-
 .tts-btn:disabled {
   opacity: 0.35;
   cursor: not-allowed;
@@ -199,11 +194,6 @@
 
 .tts-speed-select:hover {
   border-color: var(--tts-accent);
-}
-
-.tts-speed-select:focus-visible {
-  outline: none;
-  box-shadow: var(--tts-focus-ring);
 }
 
 /* ---------- SR live region ---------- */

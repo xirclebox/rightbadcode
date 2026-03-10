@@ -5,6 +5,7 @@ author: "Homer Gaines, CPACC"
 pubDate: April 22, 2025
 tags: [A11y, UX]
 draft: false
+heroImage: '../../assets/blog-placeholder-2.jpg'
 ---
 
 Far too often, [aria attributes are used incorrectly](https://webaim.org/projects/million/#aria). Most devs, in good faith, probably think they are helping when in reality, over-engineering with [aria can do more harm than good](https://www.w3.org/WAI/ARIA/apg/practices/read-me-first/). When your semantic element is used, it's not necessary to use the `role` attribute. Here are some quick examples where aria attributes are not needed:

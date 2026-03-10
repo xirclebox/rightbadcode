@@ -5,6 +5,7 @@ author: "Homer Gaines, CPACC"
 pubDate: March 31, 2025
 tags: [A11y, UX]
 draft: false
+heroImage: '../../assets/blog-placeholder-2.jpg'
 ---
 
 When building a nav, avoid using divs with aria attributes like this...

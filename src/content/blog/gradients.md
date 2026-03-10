@@ -5,6 +5,7 @@ author: "Homer Gaines, CPACC"
 pubDate: 2026-02-22
 tags: [A11y, UX]
 draft: true
+heroImage: '../../assets/blog-placeholder-3.jpg'
 ---
 
 https://cdn.hashnode.com/res/hashnode/image/upload/v1715885693179/edfbf2a8-9ad2-43a9-8f4e-ceea38e0174b.jpeg

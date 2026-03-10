@@ -5,6 +5,7 @@ author: "Homer Gaines, CPACC"
 pubDate: 2026-02-22
 tags: [A11y, UX]
 draft: true
+heroImage: '../../assets/blog-placeholder-3.jpg'
 ---
 
 Love building things. My favorite toys as a toddler were Lincoln Logs, Tinkertoys, and Colorforms. I learned at an early age how to break down complex shapes into the primitives mainly from playing with these toys, but they were real world tangible things that I could touch to help me understand the concepts that my mom was teaching me about art and working with primitives.

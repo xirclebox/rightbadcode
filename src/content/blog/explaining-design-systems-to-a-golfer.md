@@ -5,6 +5,7 @@ author: "Homer Gaines, CPACC"
 pubDate: 2026-02-22
 tags: [A11y, UX]
 draft: true
+heroImage: '../../assets/blog-placeholder-3.jpg'
 ---
 
 I was out “playing” golf with my Pops, and we hit the subject of work and side projects. He's aware of the work that I do regarding accessibility, but he's not as familiar with the details of Design Systems. He's both business and tech-savvy, but knowing he's an avid golfer, I chose to explain what a Design System is using golf analogies. It went something like this...

@@ -5,6 +5,7 @@ author: "Homer Gaines, CPACC"
 pubDate: 2026-02-22
 tags: [A11y, UX]
 draft: true
+heroImage: '../../assets/blog-placeholder-3.jpg'
 ---
 
 Here’s a great example that shows why form labels are important. I used auto-fill to complete this quick sign-up on mobile. Easy enough, however, because the text inputs don't align with auto-fill values, the wrong values were placed in the text fields. As a result, I wasn't able to correct the fields immediately because I lost the context. I didn't know if I had to add my name or a username plus my name in the populated fields. I had to delete the info to see what the placeholder text was so that I could correct it.

@@ -5,6 +5,7 @@ author: "Homer Gaines, CPACC"
 pubDate: January 15, 2024
 tags: [A11y, UX]
 draft: false
+heroImage: '../../assets/blog-placeholder-2.jpg'
 ---
 
 Regardless of your industry, customer service can make or break your business. Your website is an extension of your customer service. If you own a business and choose to have a form on your website to communicate with the public, make sure that form works. Statistics show that [76% of users who encounter UX issues](https://www.zippia.com/advice/website-statistics/#Website_User_Behavior_Statistics) on a website will take their money elsewhere. That's because people judge your company and services based on how your website looks and how it functions within seconds. A negative experience either way can lead to a negative perception of your company and services, which can directly impact your bottom line.

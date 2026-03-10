@@ -5,6 +5,7 @@ author: "Homer Gaines, CPACC"
 pubDate: 2026-02-22
 tags: [A11y, UX]
 draft: true
+heroImage: '../../assets/blog-placeholder-3.jpg'
 ---
 
 There's no shortage of opinions about what to do with disabled controls like buttons in the UI. This post may even attract some negative comments, but whatever. Show or hide the disabled control; people fall on both sides of the fence. However, regardless of which side of the fence you're on, one thing still applies — the control itself has to be accessible.

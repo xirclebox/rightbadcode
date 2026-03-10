@@ -1,21 +1,20 @@
 ---
-import HeaderLink from '../HeaderLink/HeaderLink.astro';
-import logo from '../../assets/rightbadcode-hashnode-dark-theme.png';
-import SocialLinks from '../SocialLinks/SocialLinks.astro';
+import HeaderLink from "../HeaderLink/HeaderLink.astro";
+import logo from "../../assets/rightbadcode-hashnode-dark-theme.png";
+import SocialLinks from "../SocialLinks/SocialLinks.astro";
 import "./Header.css";
 ---
 
 <header>
-	<nav>
-		<div class="rbc-logo__heading">
-			<a href="/" class="rbc-logo__link">
-				<img src={logo.src} class="rbc-logo__image" alt="Right Bad Code"/>
-			</a>
-		</div>
-		<div class="internal-links">
-			<HeaderLink href="/">Home</HeaderLink>
-			<HeaderLink href="/about">About</HeaderLink>
-		</div>
-		<SocialLinks />
-	</nav>
+  <nav>
+    <div class="rbc-logo__heading">
+      <a href="/" class="rbc-logo__link">
+        <img src={logo.src} class="rbc-logo__image" alt="Right Bad Code" />
+      </a>
+    </div>
+    <div class="internal-links">
+      <HeaderLink href="/">Home</HeaderLink>
+      <HeaderLink href="/about">About</HeaderLink>
+    </div>
+  </nav>
 </header>

@@ -5,6 +5,7 @@ author: "Homer Gaines, CPACC"
 pubDate: 2026-02-22
 tags: [A11y, UX]
 draft: true
+heroImage: '../../assets/blog-placeholder-3.jpg'
 ---
 
 I'm often asked a couple of questions: "How do I get started with accessibility?" and "What are some good resources for learning about accessibility?" Because of the vast amount of information available, digging into the topic of accessibility can feel overwhelming. That's because it crosses disciplines. For instance, a Copywriter will view accessibility differently than a Front-end Engineer. So, understanding how it supports your interests is a tough question to answer unless we're diving directly into your role.

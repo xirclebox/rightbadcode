@@ -5,6 +5,7 @@ author: "Homer Gaines, CPACC"
 pubDate: 2026-02-22
 tags: [A11y, UX]
 draft: false
+heroImage: '../../assets/blog-placeholder-3.jpg'
 ---
 
 This list of resources is for anyone wanting to learn more about accessibility to gain a deeper understanding and or further their career. I recommend obtaining a certification through the [International Association of Accessibility Professionals (IAAP)](https://www.accessibilityassociation.org/s/certification).

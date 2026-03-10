@@ -5,6 +5,7 @@ author: "Homer Gaines, CPACC"
 pubDate: 2025-01-01
 tags: ["welcome", "getting-started"]
 draft: true
+heroImage: '../../assets/blog-placeholder-3.jpg'
 coverImage: "/images/1771712350066-alt-text.jpg"
 ---
 

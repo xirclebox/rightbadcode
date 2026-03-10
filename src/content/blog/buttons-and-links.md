@@ -5,6 +5,7 @@ author: "Homer Gaines, CPACC"
 pubDate: 2026-02-22
 tags: [A11y, UX]
 draft: true
+heroImage: '../../assets/blog-placeholder-3.jpg'
 ---
 
 I regularly see spans and divs with an onClick used to trigger the action. This works with a mouse but lacks the various requirements for keyboard support. If you've attended my accessibility talks, then you've heard me mention when to use a button versus a link because It's a common issue that I see when conducting accessibility audits and code reviews.
