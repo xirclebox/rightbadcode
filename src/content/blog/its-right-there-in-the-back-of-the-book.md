@@ -2,9 +2,9 @@
 title: "It's Right There In the Back of the Book"
 description: ""
 author: "Homer Gaines, CPACC"
-pubDate: 2026-02-22
+pubDate: Feb 17, 2025
 tags: [A11y, UX]
-draft: true
+draft: false
 heroImage: '../../assets/blog-placeholder-3.jpg'
 ---
 

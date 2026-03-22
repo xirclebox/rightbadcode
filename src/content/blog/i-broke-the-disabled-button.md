@@ -2,9 +2,9 @@
 title: "I Broke the Disabled Button"
 description: ""
 author: "Homer Gaines, CPACC"
-pubDate: 2026-02-22
+pubDate: Apr 24, 2025
 tags: [A11y, UX]
-draft: true
+draft: false
 heroImage: '../../assets/blog-placeholder-3.jpg'
 ---
 

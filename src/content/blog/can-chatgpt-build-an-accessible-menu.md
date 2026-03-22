@@ -2,9 +2,9 @@
 title: "Can ChatGPT build an Accessible Menu?"
 description: ""
 author: "Homer Gaines, CPACC"
-pubDate: 2026-02-22
+pubDate: May 16, 2023
 tags: [A11y, UX]
-draft: true
+draft: false
 heroImage: '../../assets/blog-placeholder-3.jpg'
 ---
 

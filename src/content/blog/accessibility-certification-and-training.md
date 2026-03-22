@@ -2,7 +2,7 @@
 title: "Accessibility Certification and Training"
 description: ""
 author: "Homer Gaines, CPACC"
-pubDate: 2026-02-22
+pubDate: Dec 19, 2025
 tags: [A11y, UX]
 draft: false
 heroImage: '../../assets/blog-placeholder-3.jpg'

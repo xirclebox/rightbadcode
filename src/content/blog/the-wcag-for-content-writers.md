@@ -2,9 +2,9 @@
 title: "The WCAG for Content Writers"
 description: ""
 author: "Homer Gaines, CPACC"
-pubDate: 2026-02-22
+pubDate: Jun 13, 2024
 tags: [A11y, UX]
-draft: true
+draft: false
 heroImage: '../../assets/blog-placeholder-3.jpg'
 ---
 

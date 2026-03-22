@@ -2,10 +2,9 @@
 title: "Icon Buttons Need Tooltip Labels"
 description: ""
 author: "Homer Gaines, CPACC"
-pubDate: 2026-02-22
+pubDate: Nov 14, 2025
 tags: [A11y, UX]
-draft: true
-heroImage: '../../assets/blog-placeholder-3.jpg'
+draft: false
 heroImage: "../../assets/icon-button-tooltips.jpg"
 ---
 

@@ -2,7 +2,7 @@
 title: "Welcome to Your New Blog"
 description: "This is your first blog post. Edit it or create new ones from the CMS."
 author: "Homer Gaines, CPACC"
-pubDate: 2025-01-01
+pubDate: 
 tags: ["welcome", "getting-started"]
 draft: true
 heroImage: '../../assets/blog-placeholder-3.jpg'
