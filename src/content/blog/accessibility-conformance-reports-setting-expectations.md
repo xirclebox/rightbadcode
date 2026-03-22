@@ -19,11 +19,11 @@ For organizations looking to purchase software, technology, or services, ACRs ba
 
 Produced by the [Information Technology Industry Council](https://www.itic.org/) (ITI), there are currently [five variations of the VPAT](https://www.itic.org/policy/accessibility/vpat) to choose from:
 
-- **VPAT 2.5Rev EU (April 2025)**
-- **VPAT 2.5Rev INT (April 2025)**
-- **VPAT 2.5Rev 508 (April 2025)**
-- **VPAT 2.5Rev WCAG (April 2025)**
-- **VPAT 2.5Rev Change Tracking (April 2025)**
+- VPAT 2.5Rev EU (April 2025)
+- VPAT 2.5Rev INT (April 2025)
+- VPAT 2.5Rev 508 (April 2025)
+- VPAT 2.5Rev WCAG (April 2025)
+- VPAT 2.5Rev Change Tracking (April 2025)
 
 Depending on which template you choose, within each VPAT® are criteria that align with the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/WCAG22/Understanding/), [Section 508](https://www.section508.gov/manage/laws-and-policies/), or [EN 301 549](https://digital-strategy.ec.europa.eu/en/policies/web-accessibility-directive-standards-and-harmonisation). Each of these criteria is evaluated and given a conformance level of “Supports”, “Partially supports”, Does not support”, “Not applicable”, or “Not evaluated”. The result of completing a VPAT is known as an ACR.
 

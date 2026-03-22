@@ -16,7 +16,7 @@ body {
   word-wrap: break-word;
   overflow-wrap: break-word;
   color: var(--body-copy);
-  font-size: var(--font-size--18);
+  font-size: var(--font-size--20);
   line-height: 1.7;
 }
 
@@ -181,17 +181,14 @@ table {
   border-collapse: collapse;
   inline-size: 100%;
   font-size: var(--font-size--16);
+  margin: var(--size--64) 0;
 
   & thead {
-    border-block-end: 2px solid #38325a;
+    border-block-end: 2px solid var(--eggplant);
   }
 
   & tbody tr {
-    border-block-end: 1px solid #e0e0e0;
-
-    &:last-child {
-      border-block-end: none;
-    }
+    border-block-end: 1px solid var(--eggplant);
 
     &:hover {
       background-color: var(--dark);
@@ -213,35 +210,7 @@ table {
 }
 
 @media (min-width: 720px) {
-  body {
-    font-size: var(--font-size--20);
-  }
-
   main {
     padding: 0;
   }
-
-  /* h1 {
-    font-size: var(--size--32);
-  }
-
-  h2 {
-    font-size: var(--font-size--36);
-  }
-
-  h3 {
-    font-size: var(--font-size--30);
-  }
-
-  h4 {
-    font-size: var(--font-size--24);
-  }
-
-  h5 {
-    font-size: var(--font-size--20);
-  }
-
-  & th {
-    font-size: var(--font-size--24);
-  } */
 }
