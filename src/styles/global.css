@@ -52,19 +52,19 @@ h1 {
 }
 
 h2 {
-  font-size: var(--font-size--30);
-}
-
-h3 {
   font-size: var(--font-size--24);
 }
 
-h4 {
+h3 {
   font-size: var(--font-size--20);
 }
 
-h5 {
+h4 {
   font-size: var(--font-size--18);
+}
+
+h5 {
+  font-size: var(--font-size--16);
 }
 
 strong {
@@ -114,6 +114,8 @@ pre {
   padding: var(--size--24);
   border-radius: var(--radius);
   background-color: var(--dark);
+  margin-bottom: var(--size--32);
+  width: 100%;
 }
 
 pre > code {
@@ -122,7 +124,7 @@ pre > code {
 
 blockquote {
   border-left: 4px solid var(--accent);
-  padding: 0 0 0 var(--size--20);
+  padding: 0 0 0 var(--size--24);
   margin: 0;
 }
 
