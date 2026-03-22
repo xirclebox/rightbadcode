@@ -12,4 +12,4 @@ Several companies have bought into the idea that accessibility [widgets such as 
 
 %[https://youtu.be/R12Z1Sp-u4U]
 
-The best solution is to perform an accessibility audit and update any accessibility issues found. Speaking as a Front-end Engineer and certified accessibility professional, I understand the challenges teams face when updating legacy code. I've been there. In fact, that space is where I spend most of my time. So in that same light, as an engineer, I know it's not impossible. It takes time, but it's not impossible. All we have to do is right bad code.
+The best solution is to perform an accessibility audit and update any accessibility issues found. Speaking as a Front-end Engineer and certified accessibility professional, I understand the challenges teams face when updating legacy code. I've been there. In fact, that space is where I spend most of my time. So in that same light, as an engineer, I know it's not impossible. It takes time, but it can be done. All we have to do is right bad code.
