@@ -191,6 +191,12 @@ const { targetSelector = "article", label = "Listen to this article" } =
       this.playBtn.addEventListener("click", () => this.togglePlay());
       this.stopBtn.addEventListener("click", () => this.stop());
       this.speedSelect.addEventListener("change", () => this.onSpeedChange());
+
+      // Stop playback on page refresh, tab close, or navigation away.
+      // pagehide covers bfcache-eligible pages; beforeunload catches the rest.
+      const cancelOnUnload = () => this.synth.cancel();
+      window.addEventListener("pagehide", cancelOnUnload);
+      window.addEventListener("beforeunload", cancelOnUnload);
     }
 
     private updateDuration() {

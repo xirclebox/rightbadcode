@@ -71,7 +71,6 @@
 }
 
 .tts-btn:hover:not(:disabled) {
-  background: var(--tts-bg-hover);
   border-color: var(--tts-accent);
   color: var(--tts-accent);
 }
@@ -79,18 +78,6 @@
 .tts-btn:disabled {
   opacity: 0.35;
   cursor: not-allowed;
-}
-
-.tts-play {
-  background: var(--tts-accent);
-  border-color: var(--tts-accent);
-  color: var(--dark);
-}
-
-.tts-play:hover:not(:disabled) {
-  background: var(--tts-accent-hover);
-  border-color: var(--tts-accent-hover);
-  color: var(--light);
 }
 
 .tts-play .icon-pause,
