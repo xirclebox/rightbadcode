@@ -1,8 +1,8 @@
 header {
   margin: 0;
   padding: 1.25rem 1em;
-
   box-shadow: 0 2px 8px rgba(var(--dark), 5%);
+  text-align: center;
 }
 
 h2 {
