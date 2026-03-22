@@ -40,7 +40,9 @@ main {
   max-width: 960px;
   margin: auto;
   padding: var(--size--16);
+}
 
+.rbc-content__wrapper {
   h2 {
     margin-top: var(--size--64);
   }
