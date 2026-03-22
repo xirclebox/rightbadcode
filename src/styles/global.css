@@ -83,7 +83,7 @@ p {
 }
 
 .prose {
-  width: 900px;
+  width: 960px;
   max-width: calc(100% - 2em);
   margin: auto;
   padding: 1em;
