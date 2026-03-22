@@ -94,6 +94,10 @@ p {
     margin-bottom: var(--size--32);
     color: var(--body-copy);
   }
+
+  ul {
+    margin-bottom: var(--size--32);
+  }
 }
 
 textarea {
@@ -230,7 +234,7 @@ table {
     padding: 0;
   }
 
-  h1 {
+  /* h1 {
     font-size: var(--size--32);
   }
 
@@ -252,5 +256,5 @@ table {
 
   & th {
     font-size: var(--font-size--24);
-  }
+  } */
 }

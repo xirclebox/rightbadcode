@@ -19,7 +19,7 @@
   color: var(--body-text);
   margin: var(--size--32) auto;
   background: var(--tts-bg);
-  padding: 1.25rem 1.5rem;
+  padding: var(--size--20) 1.5rem;
   line-height: 1.4;
 }
 
@@ -97,7 +97,7 @@
 .tts-play:hover:not(:disabled) {
   background: var(--tts-accent-hover);
   border-color: var(--tts-accent-hover);
-  color: #fff;
+  color: var(--light);
 }
 
 /* Icon toggling */

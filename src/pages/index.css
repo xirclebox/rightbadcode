@@ -2,7 +2,7 @@
   ul {
     display: flex;
     flex-wrap: wrap;
-    gap: var(--size--8);
+    gap: var(--size--64);
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -10,7 +10,6 @@
 
   ul li {
     width: 100%;
-    text-align: center;
   }
 
   ul li * {
@@ -42,11 +41,12 @@
   .title {
     margin: 0;
     line-height: 1.5;
+    font-size: var(--fonts-size--24);
   }
 
   .date {
     margin: 0;
-    color: #fff;
+    color: var(--light);
   }
 
   ul li a:hover h4,
@@ -65,7 +65,6 @@
 
     ul li {
       width: calc(50% - var(--size--16));
-      text-align: unset;
     }
 
     ul li:first-child {

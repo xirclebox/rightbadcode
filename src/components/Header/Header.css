@@ -1,28 +1,6 @@
 header {
   margin: 0;
-  padding: 1.25rem 1em;
+  padding: var(--size--20);
   box-shadow: 0 2px 8px rgba(var(--dark), 5%);
   text-align: center;
-}
-
-h2 {
-  margin: 0;
-  font-size: 1em;
-}
-
-h2 a,
-h2 a.active {
-  text-decoration: none;
-}
-
-.rbc-header-social__links,
-.rbc-header-social__link {
-  padding: 0 0.5em;
-  display: flex;
-}
-
-@media (max-width: 720px) {
-  .social-links {
-    display: none;
-  }
 }

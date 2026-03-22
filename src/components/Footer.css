@@ -1,11 +1,11 @@
 footer {
-  padding: 2em 1em 6em 1em;
+  padding: 2em var(--size--20) 6em var(--size--20);
   text-align: center;
 }
 
 .social-links {
   display: flex;
   justify-content: center;
-  gap: 1em;
-  margin-top: 1em;
+  gap: var(--size--20);
+  margin-top: var(--size--20);
 }

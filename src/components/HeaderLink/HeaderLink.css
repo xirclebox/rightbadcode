@@ -1,7 +1,7 @@
 .HeaderLink {
   display: inline-block;
   text-decoration: none;
-  padding: 1em 0.5em;
+  padding: var(--size--20) 0.5em;
   border-bottom: 4px solid transparent;
 
   &.active {

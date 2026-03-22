@@ -6,6 +6,7 @@ main {
 
 .hero-image {
   width: 100%;
+  margin-bottom: var(--size--20);
 }
 
 .hero-image img {
@@ -15,21 +16,21 @@ main {
   box-shadow: var(--box-shadow);
 }
 
-.title {
-  margin-bottom: 1em;
-  padding: 1em 0;
+.post-title {
+  margin-bottom: var(--size--20);
+  padding: var(--size--20) 0;
   text-align: center;
   line-height: 1.5;
-}
 
-.title h1 {
-  margin: 0 0 0.5em 0;
-}
+  h1 {
+    margin: 0 0 var(--size--80) 0;
+  }
 
-.date {
-  margin-bottom: 0.5em;
-}
+  .date {
+    margin-bottom: 0.5em;
+  }
 
-.last-updated-on {
-  font-style: italic;
+  .last-updated-on {
+    font-style: italic;
+  }
 }
