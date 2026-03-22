@@ -28,7 +28,7 @@ body {
 
 main {
   width: calc(100% - 2em);
-  max-width: 100%;
+  max-width: 960px;
   margin: 0 auto;
 }
 
@@ -83,8 +83,7 @@ p {
 }
 
 .prose {
-  width: 960px;
-  max-width: calc(100% - 2em);
+  max-width: 960px;
   margin: auto;
   padding: 1em;
 
