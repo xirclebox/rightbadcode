@@ -16,7 +16,7 @@ body {
   word-wrap: break-word;
   overflow-wrap: break-word;
   color: var(--body-copy);
-  font-size: 1.125rem;
+  font-size: var(--font-size--18);
   line-height: 1.7;
 }
 
@@ -28,10 +28,10 @@ body {
 }
 
 main {
-  width: calc(100% - 2rem);
+  width: calc(100% - var(--size--32));
   max-width: 960px;
   margin: 0 auto;
-  padding: 1rem;
+  padding: var(--size--16);
 }
 
 h1,
@@ -42,29 +42,29 @@ h5,
 h6 {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-optical-sizing: auto;
-  margin: 0 0 0.5rem 0;
+  margin: 0 0 var(--size--8) 0;
   color: var(--soft-snow);
   line-height: 1.2;
 }
 
 h1 {
-  font-size: 2.25rem;
+  font-size: var(--font-size--36);
 }
 
 h2 {
-  font-size: 1.875rem;
+  font-size: var(--font-size--30);
 }
 
 h3 {
-  font-size: 1.563rem;
+  font-size: var(--font-size--24);
 }
 
 h4 {
-  font-size: 1.25rem;
+  font-size: var(--font-size--20);
 }
 
 h5 {
-  font-size: 1.125rem;
+  font-size: var(--font-size--18);
 }
 
 strong {
@@ -82,27 +82,27 @@ a {
 }
 
 p {
-  margin-bottom: 1rem;
+  margin-bottom: var(--size--16);
 }
 
 .prose {
   max-width: 960px;
   margin: auto;
-  padding: 1rem;
+  padding: var(--size--16);
 
   p {
-    margin-bottom: 2rem;
+    margin-bottom: var(--size--32);
     color: var(--body-copy);
   }
 }
 
 textarea {
   width: 100%;
-  font-size: 1rem;
+  font-size: var(--font-size--16);
 }
 
 input {
-  font-size: 1rem;
+  font-size: var(--font-size--16);
 }
 
 table {
@@ -112,18 +112,18 @@ table {
 img {
   max-width: 100%;
   height: auto;
-  border-radius: 8px;
+  border-radius: var(--radius);
 }
 
 code {
-  padding: 0.125rem 0.5rem;
+  padding: var(--size--2) var(--size--8);
   background: var(--code-background);
   color: var(--light);
 }
 
 pre {
-  padding: 1.5rem;
-  border-radius: 8px;
+  padding: var(--size--24);
+  border-radius: var(--radius);
   background-color: var(--dark);
 }
 
@@ -133,9 +133,8 @@ pre > code {
 
 blockquote {
   border-left: 4px solid var(--accent);
-  padding: 0 0 0 1.25rem;
+  padding: 0 0 0 var(--size--20);
   margin: 0;
-  font-size: 1.25rem;
 }
 
 hr {
@@ -146,7 +145,7 @@ hr {
 mark {
   background-color: var(--soft-lavender);
   color: var(--dark);
-  padding: 0.125rem 0.5rem;
+  padding: var(--size--2) var(--size--8);
 }
 
 .sr-only {
@@ -190,7 +189,7 @@ nav {
 table {
   border-collapse: collapse;
   inline-size: 100%;
-  font-size: 1rem;
+  font-size: var(--font-size--16);
 
   & thead {
     border-block-end: 2px solid #38325a;
@@ -210,21 +209,21 @@ table {
 
   & th,
   & td {
-    padding: 0.75rem 1rem;
+    padding: 0.75rem var(--size--16);
     text-align: left;
     vertical-align: top;
   }
 
   & th {
     font-weight: 700;
-    font-size: 1.25rem;
+    font-size: var(--font-size--18);
     white-space: nowrap;
   }
 }
 
 @media (min-width: 720px) {
   body {
-    font-size: 1.25rem;
+    font-size: var(--font-size--20);
   }
 
   main {
@@ -232,26 +231,26 @@ table {
   }
 
   h1 {
-    font-size: 3.052rem;
+    font-size: var(--size--32);
   }
 
   h2 {
-    font-size: 2.441rem;
+    font-size: var(--font-size--36);
   }
 
   h3 {
-    font-size: 1.953rem;
+    font-size: var(--font-size--30);
   }
 
   h4 {
-    font-size: 1.563rem;
+    font-size: var(--font-size--24);
   }
 
   h5 {
-    font-size: 1.25rem;
+    font-size: var(--font-size--20);
   }
 
   & th {
-    font-size: 1.5rem;
+    font-size: var(--font-size--24);
   }
 }

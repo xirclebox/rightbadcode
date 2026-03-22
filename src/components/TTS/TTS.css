@@ -17,7 +17,7 @@
 /* ---------- Layout ---------- */
 .tts-player {
   color: var(--body-text);
-  margin: 2rem auto;
+  margin: var(--size--32) auto;
   background: var(--tts-bg);
   padding: 1.25rem 1.5rem;
   line-height: 1.4;
@@ -33,7 +33,7 @@
 .tts-header {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: var(--size--8);
 }
 
 .tts-icon {
@@ -43,7 +43,7 @@
 
 .tts-title {
   color: var(--body-text);
-  font-size: 1.25rem;
+  font-size: var(--font-size--20);
   font-weight: 600;
   margin: 0;
 }
@@ -129,7 +129,7 @@
   flex: 1 1 6rem;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: var(--size--8);
   min-width: 6rem;
 }
 
@@ -151,7 +151,7 @@
 }
 
 .tts-time {
-  font-size: 1.25rem;
+  font-size: var(--font-size--20);
   font-variant-numeric: tabular-nums;
   min-width: 2.6rem;
   text-align: right;
@@ -163,20 +163,20 @@
 .tts-speed-group {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: var(--size--16);
   margin-left: auto;
   flex-shrink: 0;
 }
 
 .tts-speed-label {
-  font-size: 1rem;
+  font-size: var(--font-size--16);
   font-weight: 500;
   letter-spacing: 0.03em;
 }
 
 .tts-speed-select {
   font-family: var(--tts-font-ui);
-  font-size: 1.25rem;
+  font-size: var(--font-size--20);
   font-weight: 600;
   padding: 0.3rem 0.45rem;
   border: 1px solid var(--tts-border);
@@ -230,7 +230,7 @@
 /* ---------- Compact layout on small screens ---------- */
 @media (max-width: 30rem) {
   .tts-player {
-    padding: 1rem;
+    padding: var(--size--16);
   }
 
   .tts-controls {

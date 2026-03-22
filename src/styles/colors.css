@@ -18,5 +18,5 @@
   --code-background: #38325c;
   --link-color: #59d3ff;
 
-  --radius: 1rem;
+  --radius: var(--size--16);
 }
