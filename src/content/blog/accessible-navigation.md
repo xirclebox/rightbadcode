@@ -22,7 +22,7 @@ Instead, author your navigation starting with this bare-bones solution. Using se
 <nav>
  <ul>
    <li>
-     <a href="#"">Nav item 1</a>
+     <a href="#">Nav item 1</a>
    </li>
  </ul>
 </nav>
