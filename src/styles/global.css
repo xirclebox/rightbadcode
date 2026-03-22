@@ -85,21 +85,6 @@ p {
   margin-bottom: var(--size--16);
 }
 
-.prose {
-  max-width: 960px;
-  margin: auto;
-  padding: var(--size--16);
-
-  p {
-    margin-bottom: var(--size--32);
-    color: var(--body-copy);
-  }
-
-  ul {
-    margin-bottom: var(--size--32);
-  }
-}
-
 textarea {
   width: 100%;
   font-size: var(--font-size--16);
