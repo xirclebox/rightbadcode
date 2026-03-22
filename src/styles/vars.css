@@ -1,18 +1,28 @@
 :root {
-  /* Base font size */
-  --font-size-base: 16px;
+  --size--4: 0.25rem;
+  --size--8: 0.5rem;
+  --size--12: 0.75rem;
+  --size--16: 1rem;
+  --size--20: 1.25rem;
+  --size--24: 1.5rem;
+  --size--32: 2rem;
+  --size--40: 2.5rem;
+  --size--48: 3rem;
+  --size--64: 4rem;
+  --size--80: 5rem;
+  --size--96: 6rem;
+  --size--128: 8rem;
 
-  /* Mobile-first font scale (default) */
-  --font-size-14: 0.875rem; /* 14px */
-  --font-size-16: 1rem; /* 16px */
-  --font-size-18: 1.125rem; /* 18px */
-  --font-size-20: 1.25rem; /* 20px */
-  --font-size-24: 1.5rem; /* 24px */
-  --font-size-30: 1.875rem; /* 30px */
-  --font-size-36: 2.25rem; /* 36px */
-  --font-size-48: 3rem; /* 48px */
-  --font-size-60: 3.75rem; /* 60px */
-  --font-size-72: 4.5rem; /* 72px */
+  --font-size--14: 0.875rem;
+  --font-size--16: 1rem;
+  --font-size--18: 1.125rem;
+  --font-size--20: 1.25rem;
+  --font-size--24: 1.5rem;
+  --font-size--30: 1.875rem;
+  --font-size--36: 2.25rem;
+  --font-size--48: 3rem;
+  --font-size--60: 3.75rem;
+  --font-size--72: 4.5rem;
 
-  --radius: 1rem;
+  --radius: var(--size--4);
 }

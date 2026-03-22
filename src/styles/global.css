@@ -1,4 +1,5 @@
 @import "./colors.css";
+@import "./vars.css";
 
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
@@ -15,7 +16,7 @@ body {
   word-wrap: break-word;
   overflow-wrap: break-word;
   color: var(--body-copy);
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 1.7;
 }
 
@@ -27,9 +28,10 @@ body {
 }
 
 main {
-  width: calc(100% - 2em);
+  width: calc(100% - 2rem);
   max-width: 960px;
   margin: 0 auto;
+  padding: 1rem;
 }
 
 h1,
@@ -46,23 +48,23 @@ h6 {
 }
 
 h1 {
-  font-size: 3.052em;
+  font-size: 2.25rem;
 }
 
 h2 {
-  font-size: 2.441em;
+  font-size: 1.875rem;
 }
 
 h3 {
-  font-size: 1.953em;
+  font-size: 1.563rem;
 }
 
 h4 {
-  font-size: 1.563em;
+  font-size: 1.25rem;
 }
 
 h5 {
-  font-size: 1.25em;
+  font-size: 1.125rem;
 }
 
 strong {
@@ -71,6 +73,7 @@ strong {
 
 a {
   color: var(--link-color);
+
   &:hover,
   &:active,
   &:focus {
@@ -79,27 +82,27 @@ a {
 }
 
 p {
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 
 .prose {
   max-width: 960px;
   margin: auto;
-  padding: 1em;
+  padding: 1rem;
 
   p {
-    margin-bottom: 2em;
+    margin-bottom: 2rem;
     color: var(--body-copy);
   }
 }
 
 textarea {
   width: 100%;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 input {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 table {
@@ -119,7 +122,7 @@ code {
 }
 
 pre {
-  padding: 1.5em;
+  padding: 1.5rem;
   border-radius: 8px;
   background-color: var(--dark);
 }
@@ -130,9 +133,9 @@ pre > code {
 
 blockquote {
   border-left: 4px solid var(--accent);
-  padding: 0 0 0 20px;
+  padding: 0 0 0 1.25rem;
   margin: 0;
-  font-size: 1.333em;
+  font-size: 1.25rem;
 }
 
 hr {
@@ -146,15 +149,6 @@ mark {
   padding: 0.125rem 0.5rem;
 }
 
-@media (max-width: 720px) {
-  body {
-    font-size: 18px;
-  }
-  main {
-    padding: 1em;
-  }
-}
-
 .sr-only {
   border: 0;
   padding: 0;
@@ -163,9 +157,7 @@ mark {
   height: 1px;
   width: 1px;
   overflow: hidden;
-  /* modern browsers, clip-path works inwards from each corner */
   clip-path: inset(50%);
-  /* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
   white-space: nowrap;
 }
 
@@ -225,7 +217,41 @@ table {
 
   & th {
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     white-space: nowrap;
+  }
+}
+
+@media (min-width: 720px) {
+  body {
+    font-size: 1.25rem;
+  }
+
+  main {
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 3.052rem;
+  }
+
+  h2 {
+    font-size: 2.441rem;
+  }
+
+  h3 {
+    font-size: 1.953rem;
+  }
+
+  h4 {
+    font-size: 1.563rem;
+  }
+
+  h5 {
+    font-size: 1.25rem;
+  }
+
+  & th {
+    font-size: 1.5rem;
   }
 }
