@@ -2,7 +2,7 @@
   ul {
     display: flex;
     flex-wrap: wrap;
-    gap: var(--size--64);
+    gap: var(--size--16);
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -17,16 +17,8 @@
     transition: 0.2s ease;
   }
 
-  ul li:first-child {
-    margin-bottom: 0;
-  }
-
-  ul li:first-child img {
+  ul li img {
     width: 100%;
-  }
-
-  ul li:first-child .title {
-    font-size: 1.563rem;
   }
 
   ul li img {
@@ -34,47 +26,53 @@
     border-radius: var(--radius);
   }
 
-  ul li a {
-    display: block;
+  ul li .rbc-card {
+    display: flex;
+    position: relative;
+    background: var(--eggplant);
+    min-height: 250px;
+    align-items: center;
+    border-radius: var(--radius);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &:hover,
+    &:focus {
+      background-position: bottom;
+    }
   }
 
-  .title {
-    margin: 0;
-    line-height: 1.5;
-    font-size: var(--fonts-size--24);
-  }
-
-  .date {
-    margin: 0;
+  .rbc-card__meta {
+    text-align: left;
+    padding: var(--size--32);
     color: var(--light);
+    flex: 1;
   }
 
-  ul li a:hover h4,
-  ul li a:hover .date {
-    color: rgb(var(--accent));
+  .rbc-card__title {
+    margin: 0 0 var(--size--32) 0;
+    line-height: 1.5;
+    font-size: var(--font-size--30);
   }
 
-  ul a:hover img {
-    box-shadow: var(--box-shadow);
+  .rbc-card__date {
+    margin: 0 0 var(--size--12);
+    color: var(--light);
+    font-size: var(--fonts-size--20);
   }
 
-  @media (min-width: 720px) {
-    ul {
-      gap: var(--size--32);
-    }
+  .rbc-card__tags {
+    margin: 0;
+    display: flex;
+    gap: var(--size--8);
+    justify-self: end;
+  }
 
-    ul li {
-      width: calc(50% - var(--size--16));
-    }
-
-    ul li:first-child {
-      width: 100%;
-      margin-bottom: var(--size--16);
-      text-align: center;
-    }
-
-    ul li:first-child .title {
-      font-size: 2.369rem;
-    }
+  .rbc-card__tag {
+    display: flex;
+    padding: var(--size--4) var(--size--12);
+    background: var(--accent-dark);
+    border-radius: 8px;
+    font-size: var(--font-size--14);
   }
 }

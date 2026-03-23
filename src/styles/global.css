@@ -207,9 +207,3 @@ table {
     white-space: nowrap;
   }
 }
-
-@media (min-width: 720px) {
-  main {
-    padding: 0;
-  }
-}

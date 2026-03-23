@@ -28,21 +28,26 @@ const posts = (
           {
             posts.map((post) => (
               <li>
-                <a href={`${post.id}/`} class="rbc-card">
-                  {post.data.heroImage && (
-                    <Image
-                      width={720}
-                      height={360}
-                      src={post.data.heroImage}
-                      alt=""
-                      aria-hidden="true"
-                    />
-                  )}
-
-                  <h2 class="title">{post.data.title}</h2>
-                  <p class="date">
-                    <FormattedDate date={post.data.pubDate} />
-                  </p>
+                <a
+                  href={`${post.id}/`}
+                  class="rbc-card"
+                  style={
+                    post.data.heroImage
+                      ? `background-image: url(${post.data.heroImage.src})`
+                      : ""
+                  }
+                >
+                  <div class="rbc-card__meta">
+                    <h2 class="rbc-card__title">{post.data.title}</h2>
+                    <p class="rbc-card__date">
+                      <FormattedDate date={post.data.pubDate} />
+                    </p>
+                    <p class="rbc-card__tags">
+                      {(post.data.tags ?? []).map((tag) => (
+                        <span class="rbc-card__tag">{tag}</span>
+                      ))}
+                    </p>
+                  </div>
                 </a>
               </li>
             ))
