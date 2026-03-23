@@ -1,5 +1,4 @@
 main {
-  width: calc(100% - 2em);
   max-width: 100%;
   margin: 0;
 }
@@ -7,13 +6,14 @@ main {
 .hero-image {
   width: 100%;
   margin-bottom: var(--size--20);
+  display: none;
 }
 
 .hero-image img {
   display: block;
   margin: 0 auto;
-  border-radius: 12px;
-  box-shadow: var(--box-shadow);
+  /* border-radius: var(--radius);
+  box-shadow: var(--box-shadow); */
 }
 
 .post-title {
@@ -58,5 +58,13 @@ main {
 
   li {
     margin-bottom: var(--size--12);
+  }
+}
+
+@media (min-width: 720px) {
+  .hero-image {
+    width: 100%;
+    margin-bottom: var(--size--20);
+    display: block;
   }
 }

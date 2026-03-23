@@ -13,7 +13,7 @@ const { targetSelector = "article", label = "Listen to this article" } =
   <div class="tts-inner">
     <div class="tts-header">
       <h2 class="tts-title">{label}</h2>
-      <span class="tts-separator" aria-hidden="true">&middot;</span>
+      <span class="tts-separator" aria-hidden="true">~</span>
       <time
         class="tts-duration"
         datetime=""
@@ -90,20 +90,6 @@ const { targetSelector = "article", label = "Listen to this article" } =
         </button>
       </div>
 
-      <div
-        class="tts-progress-wrap"
-        role="progressbar"
-        aria-valuenow="0"
-        aria-valuemin="0"
-        aria-valuemax="100"
-        aria-label="Reading progress"
-      >
-        <div class="tts-progress-track">
-          <div class="tts-progress-fill"></div>
-        </div>
-        <output class="tts-time" aria-live="off">0:00</output>
-      </div>
-
       <div class="tts-speed-group">
         <label for="tts-speed" class="tts-speed-label">Speed</label>
         <select
@@ -118,6 +104,20 @@ const { targetSelector = "article", label = "Listen to this article" } =
           <option value="1.5">1.5×</option>
           <option value="2">2×</option>
         </select>
+      </div>
+
+      <div
+        class="tts-progress-wrap"
+        role="progressbar"
+        aria-valuenow="0"
+        aria-valuemin="0"
+        aria-valuemax="100"
+        aria-label="Reading progress"
+      >
+        <div class="tts-progress-track">
+          <div class="tts-progress-fill"></div>
+        </div>
+        <output class="tts-time" aria-live="off">0:00</output>
       </div>
     </div>
 

@@ -16,7 +16,7 @@
 .tts-player {
   color: var(--body-text);
   margin: var(--size--32) auto;
-  padding: var(--size--16);
+  padding: 0;
   line-height: 1.4;
 }
 
@@ -29,10 +29,6 @@
 .tts-header {
   display: block;
   align-items: center;
-}
-
-.tts-separator {
-  display: none;
 }
 
 .tts-icon {
@@ -50,8 +46,11 @@
 .tts-controls__group {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.tts-controls {
+  display: flex;
 }
 
 .tts-btn {
@@ -147,7 +146,7 @@
   margin-left: 0;
   width: 100%;
   justify-content: flex-end;
-  flex-shrink: 0;
+  flex-shrink: 1;
 }
 
 .tts-speed-label {
@@ -212,8 +211,8 @@
     gap: var(--size--8);
   }
 
-  .tts-separator {
-    display: block;
+  .tts-player {
+    padding: var(--size--16);
   }
 
   .tts-progress-track {
@@ -224,12 +223,11 @@
     display: flex;
     align-items: center;
     gap: var(--size--8);
-    flex-wrap: wrap;
   }
 
   .tts-speed-group {
-    /* margin-left: auto;
+    margin-left: auto;
     width: auto;
-    justify-content: flex-start; */
+    justify-content: flex-start;
   }
 }
