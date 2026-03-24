@@ -6,7 +6,7 @@ import FormattedDate from "../components/FormattedDate.astro";
 import Header from "../components/Header/Header.astro";
 import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 import GoogleAnalytics from "../components/GoogleAnalytics/GoogleAnalytics.astro";
-const isProduction = import.meta.env.MODE === "production";
+//const isProduction = import.meta.env.MODE === "production";
 import "./index.css";
 
 const posts = (
@@ -20,7 +20,7 @@ const posts = (
 <html lang="en">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-    {isProduction && <GoogleAnalytics />}
+    <GoogleAnalytics />
   </head>
   <body>
     <Header />

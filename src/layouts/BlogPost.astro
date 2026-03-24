@@ -7,7 +7,7 @@ import FormattedDate from "../components/FormattedDate.astro";
 import PostHeader from "../components/Header/PostHeader.astro";
 import TTS from "../components/TTS/TTS.astro";
 import GoogleAnalytics from "../components/GoogleAnalytics/GoogleAnalytics.astro";
-const isProduction = import.meta.env.MODE === "production";
+//const isProduction = import.meta.env.MODE === "production";
 import "./BlogPost.css";
 
 type Props = CollectionEntry<"blog">["data"];
@@ -18,7 +18,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 <html lang="en">
   <head>
     <BaseHead title={title} description={description} />
-    {isProduction && <GoogleAnalytics />}
+    <GoogleAnalytics />
   </head>
 
   <body>
