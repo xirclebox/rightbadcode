@@ -61,6 +61,10 @@ main {
   }
 }
 
+iframe {
+  border: none;
+}
+
 @media (min-width: 720px) {
   .hero-image {
     width: 100%;
