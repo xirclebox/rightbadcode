@@ -94,10 +94,6 @@ input {
   font-size: var(--font-size--16);
 }
 
-table {
-  width: 100%;
-}
-
 img {
   max-width: 100%;
   height: auto;
@@ -169,8 +165,6 @@ nav {
   justify-content: center;
 }
 
-/* table.css */
-
 :has(> table) {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
@@ -181,16 +175,18 @@ table {
   inline-size: 100%;
   font-size: var(--font-size--16);
   margin: var(--size--64) 0;
+  width: 100%;
 
   & thead {
     border-block-end: 2px solid var(--eggplant);
+    background-color: var(--dark);
   }
 
   & tbody tr {
     border-block-end: 1px solid var(--eggplant);
 
     &:hover {
-      background-color: var(--dark);
+      background-color: var(--eggplant);
     }
   }
 
