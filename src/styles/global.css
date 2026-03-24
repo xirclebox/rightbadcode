@@ -184,10 +184,6 @@ table {
 
   & tbody tr {
     border-block-end: 1px solid var(--eggplant);
-
-    &:hover {
-      background-color: var(--eggplant);
-    }
   }
 
   & th,
