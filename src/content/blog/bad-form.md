@@ -37,7 +37,7 @@ As I scanned the page looking for the reCAPTCHA, I noticed the use of the overla
 
 It's safe to say that this particular company lost out on my potential business due to issues with their form. If a communication method with the company is broken, what else in their process is broken?
 
-![A section of a website with a form that has 6 inputs without lables and errors that are not apparent.](https://cdn.hashnode.com/res/hashnode/image/upload/v1696088616469/00990348-6375-4469-8eaf-f0f3bbc3c59e.jpeg align="center")
+![A section of a website with a form that has 6 inputs without lables and errors that are not apparent.](../../assets/post-assets/bad-form/bad-form.jpeg)
 
 ## Correcting the Issues
 

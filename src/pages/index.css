@@ -19,9 +19,6 @@
 
   ul li img {
     width: 100%;
-  }
-
-  ul li img {
     margin-bottom: var(--size--8);
     border-radius: var(--radius);
   }

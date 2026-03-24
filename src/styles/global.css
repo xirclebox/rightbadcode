@@ -97,6 +97,8 @@ input {
 img {
   max-width: 100%;
   height: auto;
+  display: flex;
+  justify-self: center;
 }
 
 code {
@@ -125,7 +127,7 @@ blockquote {
 
 hr {
   border: none;
-  border-top: 1px solid rgb(var(--gray-light));
+  border-top: 1px solid rgb(var(--eggplant));
 }
 
 mark {
@@ -178,7 +180,7 @@ table {
   width: 100%;
 
   & thead {
-    border-block-end: 2px solid var(--eggplant);
+    border-block-end: 1px solid var(--eggplant);
     background-color: var(--dark);
   }
 
