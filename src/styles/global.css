@@ -123,7 +123,7 @@ pre > code {
 
 blockquote {
   border-left: 4px solid var(--accent);
-  padding: 0 0 0 var(--size--24);
+  padding: 0 0 0 var(--size--16);
   margin: 0;
 }
 
