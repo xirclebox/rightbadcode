@@ -25,6 +25,13 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
     <PostHeader />
     <main>
       <article>
+        <div class="hero-image">
+          {
+            heroImage && (
+              <Image width={1020} height={510} src={heroImage} alt="" />
+            )
+          }
+        </div>
         <div class="prose">
           <div class="post-title">
             <div class="date">
