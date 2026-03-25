@@ -3,9 +3,9 @@ title: "It's Right There In the Back of the Book"
 description: ""
 author: "Homer Gaines, CPACC"
 pubDate: Feb 17, 2025
-tags: [A11y, UX]
+tags: [A11y, Tips]
 draft: false
-heroImage: '../../assets/blog-placeholder-3.jpg'
+heroImage: '../../assets/tips.jpg'
 ---
 
 ## The Cocky Kid

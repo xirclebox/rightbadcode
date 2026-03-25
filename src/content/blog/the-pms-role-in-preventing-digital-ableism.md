@@ -3,9 +3,9 @@ title: "The PMs Role in Preventing Digital Ableism"
 description: ""
 author: "Homer Gaines, CPACC"
 pubDate: Dec 17, 2025
-tags: [A11y, UX]
+tags: [A11y, Process]
 draft: false
-heroImage: '../../assets/blog-placeholder-3.jpg'
+heroImage: '../../assets/post.jpg'
 ---
 
 Ever hear of a "disappointment room"? If you watched Goonies, you saw one. It was the dark and damp, dungeon-looking room where Chunk met Sloth for the first time. Movies aside, disappointment rooms were places where families would hide their relatives who had disabilities. Common spaces were in the attic or cellar of a home, but they could have been any secluded space. These people were shunned because of their appearance or because they didn't "act" a certain way. Hidden from the world out of shame, embarrassment, societal pressure, and a fundamental lack of understanding. It was much easier to hide them away than to answer questions like, "What's wrong with her?" or "Why does he act that way?"

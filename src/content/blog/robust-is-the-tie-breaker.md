@@ -5,7 +5,7 @@ author: "Homer Gaines, CPACC"
 pubDate: 
 tags: [A11y, UX]
 draft: true
-heroImage: '../../assets/blog-placeholder-3.jpg'
+heroImage: '../../assets/post2.jpg'
 ---
 
 I was testing a tooltip component the other day, and I noticed something. Testing with my screen reader and using the keyboard to navigate, when the tooltip was in focus, the label was announced as expected. However, my automated tests failed because the button didn’t have an accessible name. So I took a look at the code so I could see what was going on.

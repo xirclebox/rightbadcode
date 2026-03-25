@@ -3,9 +3,9 @@ title: "Don't Focus on the Disability"
 description: ""
 author: "Homer Gaines, CPACC"
 pubDate: 
-tags: [A11y, UX]
+tags: [A11y]
 draft: true
-heroImage: '../../assets/blog-placeholder-3.jpg'
+heroImage: '../../assets/post2.jpg'
 ---
 
 Designing and building products with accessibility in mind benefits everyone. Getting some people to understand this can be challenging because it’s unfamiliar to them, especially when they don’t identify as a person with a disability. I’ve seen plenty of confused facial expressions when explaining why websites need to be accessible to Blind people, for example. During these conversations, someone gets hung up on solving for a particular disability. Asking questions like, “What disability should we prioritize?”, “What if we only fix it for this particular demographic?” and my favorite, “It’s not possible to target all disabilities, so which one is more important?” Focusing on one particular disability is an ableist approach and is a sure way to exclude other users. So, when the conversation takes this turn, or I notice the person is fixating on a particular disability, I like to shift the focus from the disabled person they’re imagining and show how poor accessibility support can be problematic for them personally.

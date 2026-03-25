@@ -3,9 +3,9 @@ title: "Accessible AI"
 description: ""
 author: "Homer Gaines, CPACC"
 pubDate: 
-tags: [A11y, UX]
+tags: [A11y, AI]
 draft: true
-heroImage: '../../assets/blog-placeholder-3.jpg'
+heroImage: '../../assets/post2.jpg'
 ---
 
 Darryl Zanuck said something wild back in the late 40s. I’m paraphrasing, but he basically said TV was a fad and that people would grow bored with it after a while. Then there was Clifford Stoll, who in the late 90s thought the internet would crash and burn before 2000. There was also this 10-year-old kid named Homer Gaines who, back in the 80s, told his parents that only rich people would have computers because they cost too much. Boy, were they wrong!

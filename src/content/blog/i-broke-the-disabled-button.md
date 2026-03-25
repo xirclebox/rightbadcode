@@ -3,9 +3,9 @@ title: "I Broke the Disabled Button"
 description: ""
 author: "Homer Gaines, CPACC"
 pubDate: Apr 24, 2025
-tags: [A11y, UX]
+tags: [A11y, UX, UI]
 draft: false
-heroImage: '../../assets/blog-placeholder-3.jpg'
+heroImage: '../../assets/post2.jpg'
 ---
 
 How do you break a disabled button, Gaines? Easy!

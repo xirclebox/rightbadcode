@@ -3,9 +3,9 @@ title: "Accessible Content"
 description: ""
 author: "Homer Gaines, CPACC"
 pubDate: 
-tags: [A11y, UX]
+tags: [A11y, UI, Content]
 draft: true
-heroImage: '../../assets/blog-placeholder-3.jpg'
+heroImage: '../../assets/post2.jpg'
 ---
 
 How content impacts accessibility

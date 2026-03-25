@@ -3,9 +3,9 @@ title: "Accessible Navigation"
 description: ""
 author: "Homer Gaines, CPACC"
 pubDate: March 31, 2025
-tags: [A11y, UX]
+tags: [A11y, UX, HTML]
 draft: false
-heroImage: '../../assets/blog-placeholder-2.jpg'
+heroImage: '../../assets/post.jpg'
 ---
 
 When building a nav, avoid using divs with aria attributes like this...

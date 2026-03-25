@@ -3,9 +3,9 @@ title: "Accessible Presentations"
 description: ""
 author: "Homer Gaines, CPACC"
 pubDate: 
-tags: [A11y, UX]
+tags: [A11y, tips]
 draft: true
-heroImage: '../../assets/blog-placeholder-3.jpg'
+heroImage: '../../assets/tips.jpg'
 ---
 
 Let's talk about creating accessible slides for conferences.

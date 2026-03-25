@@ -3,9 +3,9 @@ title: "Aligning Jakob Nielsen's 10 Usability Heuristics with the WCAG 2.2"
 description: ""
 author: "Homer Gaines, CPACC"
 pubDate: February 13, 2026
-tags: [A11y, UX]
+tags: [A11y, WCAG, Process, Design]
 draft: false
-heroImage: "../../assets/blog-placeholder-3.jpg"
+heroImage: "../../assets/post2.jpg"
 ---
 
 After speaking with a team of designers who referenced using [Jakob Nielsen's 10 Usability Heuristics for interface design](https://www.nngroup.com/articles/ten-usability-heuristics/) while working on a redesign project, I wondered how these guidelines aligned with the current [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/WCAG22/Understanding/). It's common when mentioning "design" and "accessibility" in the same breath; the default focus falls on color contrast — which is understandable. Contrast issues are typically [the most prevalent accessibility error](https://webaim.org/projects/million/#contrast). However, while color contrast is a valid concern, it's not the only aspect of design that affects accessibility. Designers must also be mindful of how their UI translates to the UX. Just as Jakob's guidelines cover a range of best practices for the user experience, the WCAG influences the accessible user experience similarly.

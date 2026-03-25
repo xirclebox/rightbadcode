@@ -3,9 +3,9 @@ title: "Accessibility Certification and Training"
 description: ""
 author: "Homer Gaines, CPACC"
 pubDate: Dec 19, 2025
-tags: [A11y, UX]
+tags: [A11y, Resources]
 draft: false
-heroImage: '../../assets/blog-placeholder-3.jpg'
+heroImage: '../../assets/tips.jpg'
 ---
 
 This list of resources is for anyone wanting to learn more about accessibility to gain a deeper understanding and or further their career. I recommend obtaining a certification through the [International Association of Accessibility Professionals (IAAP)](https://www.accessibilityassociation.org/s/certification).

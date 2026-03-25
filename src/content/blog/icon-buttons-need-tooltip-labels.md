@@ -5,7 +5,7 @@ author: "Homer Gaines, CPACC"
 pubDate: Nov 14, 2025
 tags: [A11y, UX, UI]
 draft: false
-heroImage: "../../assets/blog-placeholder-2.jpg"
+heroImage: "../../assets/post.jpg"
 ---
 
 It’s estimated that modern-day humans have been [using images to communicate](https://pmc.ncbi.nlm.nih.gov/articles/PMC11269172/) for at least 51,000 years. Our brains are wired to perceive and recognize shapes as forms of communication. Visual stimuli are processed through our visual cortex, routed to the hippocampus, and stored in our short-term memory until they’re reinforced, becoming long-term memory. This reinforcement happens through rehearsal. The more we’re exposed to a particular visual stimulus and its various characteristics or memory cues, the more familiar we become with it and its perceived meaning.

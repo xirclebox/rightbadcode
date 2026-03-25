@@ -3,9 +3,9 @@ title: "Aligning the COGA Objectives with the WCAG 2.2"
 description: ""
 author: "Homer Gaines, CPACC"
 pubDate: 
-tags: [A11y, UX]
+tags: [A11y, WCAG, COGA, Resources]
 draft: true
-heroImage: '../../assets/blog-placeholder-3.jpg'
+heroImage: '../../assets/post2.jpg'
 ---
 
 Cognitive accessibility guidelines

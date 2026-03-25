@@ -3,9 +3,9 @@ title: "Browser Zoom and Responsive Design"
 description: ""
 author: "Homer Gaines, CPACC"
 pubDate: 
-tags: [A11y, UX]
+tags: [A11y, UX, UI]
 draft: true
-heroImage: '../../assets/blog-placeholder-3.jpg'
+heroImage: '../../assets/post2.jpg'
 ---
 
 As we talk about devices, it's common to refer to screen sizes or breakpoints as "desktop," "tablet," or "mobile." However, these terms represent the device and do not accurately describe how content is rendered. For example, a 13-inch MacBook Pro physically has a small screen, but it has a 1440 x 900 resolution. This is larger than [1024 x 768](https://www.nngroup.com/articles/computer-screens-getting-bigger/#:~:text=The%201024%C3%97768%20became,%C3%97768%2C%20according%20to%20StatCounter.), [which was standard](https://www.nngroup.com/articles/computer-screens-getting-bigger/#:~:text=The%201024%C3%97768%20became,%C3%97768%2C%20according%20to%20StatCounter.) for desktops at one point. And, with [split-screen capabilities](https://support.apple.com/en-us/111788) that divide the screen into smaller parts, users will often [dedicate sections](https://www.microsoft.com/en-us/edge/features/split-screen?form=MA13FJ) to a particular application. Instead, don't think of screens in terms of the type of device but more along the idea of size, such as "large," "medium," and "small." While the user's devices may have a set physical size and pixel dimension, when using browser zoom to increase the size of the interface, the UI must respond accordingly. This response causes the content to appear as if the site is rendering at a smaller breakpoint. For example, here's a screenshot of the WCAG website on a large screen at its normal size, showing two columns.

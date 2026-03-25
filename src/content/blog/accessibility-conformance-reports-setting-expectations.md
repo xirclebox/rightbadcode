@@ -5,7 +5,7 @@ author: "Homer Gaines, CPACC"
 pubDate: January 19, 2026
 tags: [A11y, ACR, VPAT, Process]
 draft: false
-heroImage: '../../assets/blog-placeholder-3.jpg'
+heroImage: '../../assets/post.jpg'
 ---
 
 | Acronym | Definition                               |

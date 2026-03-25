@@ -3,9 +3,9 @@ title: "Gradients"
 description: ""
 author: "Homer Gaines, CPACC"
 pubDate: 
-tags: [A11y, UX]
+tags: [A11y, Tips]
 draft: true
-heroImage: '../../assets/blog-placeholder-3.jpg'
+heroImage: '../../assets/tips.jpg'
 ---
 
 https://cdn.hashnode.com/res/hashnode/image/upload/v1715885693179/edfbf2a8-9ad2-43a9-8f4e-ceea38e0174b.jpeg

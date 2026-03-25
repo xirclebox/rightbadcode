@@ -5,7 +5,7 @@ author: "Homer Gaines, CPACC"
 pubDate: 
 tags: [A11y, UX]
 draft: true
-heroImage: '../../assets/blog-placeholder-3.jpg'
+heroImage: '../../assets/post2.jpg'
 ---
 
 I was working on the color palette with my teammate, who was the lead designer for the design system we were building. I noticed he was adjusting the opacity of each base color to create the different shades. I asked him to use solid colors instead because adjusting the opacity can impact accessibility.

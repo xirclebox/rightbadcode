@@ -3,9 +3,9 @@ title: "Aria-labels and Privacy: A Word of Caution"
 description: ""
 author: "Homer Gaines, CPACC"
 pubDate: November 19, 2025
-tags: [A11y, UX]
+tags: [A11y, UX, Aria]
 draft: false
-heroImage: '../../assets/blog-placeholder-2.jpg'
+heroImage: '../../assets/post2.jpg'
 ---
 
 Using aria-labels can expose sensitive data to tracking software.

@@ -5,7 +5,7 @@ author: "Homer Gaines, CPACC"
 pubDate: 
 tags: [A11y, UX]
 draft: true
-heroImage: '../../assets/blog-placeholder-3.jpg'
+heroImage: '../../assets/post2.jpg'
 ---
 
 The question, “Does the hover state of a button need to be accessible?”

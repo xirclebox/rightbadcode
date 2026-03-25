@@ -5,7 +5,7 @@ author: "Homer Gaines, CPACC"
 pubDate: 
 tags: [A11y, UX]
 draft: true
-heroImage: '../../assets/blog-placeholder-3.jpg'
+heroImage: '../../assets/post2.jpg'
 ---
 
 The role of an Accessibility Engineer is one that spans across different disciplines. Content writer, Designer, Developer.

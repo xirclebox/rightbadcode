@@ -5,7 +5,7 @@ author: "Homer Gaines, CPACC"
 pubDate: 
 tags: [A11y, UX]
 draft: true
-heroImage: '../../assets/blog-placeholder-3.jpg'
+heroImage: '../../assets/post2.jpg'
 ---
 
 What does the user need to know in order to make an informed decision about their next step?

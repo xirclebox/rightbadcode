@@ -3,9 +3,9 @@ title: "Clear and Consistent UI Improves UX"
 description: ""
 author: "Homer Gaines, CPACC"
 pubDate: Jun 14, 2023
-tags: [A11y, UX]
+tags: [A11y, UX, UI]
 draft: false
-heroImage: '../../assets/blog-placeholder-3.jpg'
+heroImage: '../../assets/tips.jpg'
 ---
 
 "Dumb it down. Our sales team isn't that smart."

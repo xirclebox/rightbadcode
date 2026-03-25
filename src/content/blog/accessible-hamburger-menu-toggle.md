@@ -3,9 +3,9 @@ title: "Accessible Hamburger Menu Toggle"
 description: ""
 author: "Homer Gaines, CPACC"
 pubDate: 
-tags: [A11y, UX]
+tags: [A11y, UX, UI]
 draft: true
-heroImage: '../../assets/blog-placeholder-3.jpg'
+heroImage: '../../assets/post.jpg'
 ---
 
 As someone who performs regular accessibility audits, I'm exposed to a variety of coding examples and techniques. Some are good, and many are bad. It's the bad ones that I see the most often in coding practices. One such blind spot is when to use an anchor versus a button. The general rule is to use an anchor if it manipulates the URL in any way. For all other actions, use a button. I've come across many hamburger menu toggles that are often constructed in ways that either aren't accessible or are over-engineered.

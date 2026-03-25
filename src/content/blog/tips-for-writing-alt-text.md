@@ -3,9 +3,9 @@ title: "Tips for Writing Alt Text"
 description: ""
 author: "Homer Gaines, CPACC"
 pubDate: Apr 22, 2025
-tags: [A11y, UX]
+tags: [A11y, UX, Tips, HTML]
 draft: false
-heroImage: '../../assets/blog-placeholder-3.jpg'
+heroImage: '../../assets/tips.jpg'
 ---
 
 Alt text, also known as "alt descriptions" or "alternative text," is used to describe images on websites and other digital media. When asked, I like to tell the person to imagine they are describing an image to someone over the phone. Alt descriptions are [an essential accessibility feature](https://www.w3.org/TR/WCAG21/#text-alternatives) that can significantly improve the usability of your website for people with disabilities. Here are some tips for writing helpful alt descriptions:

@@ -3,9 +3,9 @@ title: "Can ChatGPT build an Accessible Menu?"
 description: ""
 author: "Homer Gaines, CPACC"
 pubDate: May 16, 2023
-tags: [A11y, UX]
+tags: [A11y, UX, HTML, AI]
 draft: false
-heroImage: '../../assets/blog-placeholder-3.jpg'
+heroImage: '../../assets/post2.jpg'
 ---
 
 I posted a [short accessibility navigation tip](https://rightbadcode.com/accessible-navigation) recently and out of curiosity, I asked ChatGPT to build an accessible menu. If you're not familiar with ChatGPT, in a nutshell, it's [a chatbot that was built by OpenAI](https://openai.com/blog/chatgpt/) that can hold a conversation with you as well as write code. Seeing as how people are using this and other AI tools to aid with simple coding tasks, I wanted to give it a simple coding task and evaluate the markup to see how it might impact accessibility on the web.
