@@ -68,3 +68,7 @@ const { title, description, image = FallbackImage } = Astro.props;
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(image.src, Astro.url)} />
+<meta
+  property="twitter:image:alt"
+  content="RightBadCode - a web accessibility blog with practical guidance on WCAG compliance, inclusive design, semantic HTML, and building accessible digital products."
+/>
