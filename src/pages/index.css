@@ -71,5 +71,7 @@
     background: var(--accent-dark);
     border-radius: 8px;
     font-size: var(--font-size--14);
+    mix-blend-mode: color-dodge;
+    font-weight: 700;
   }
 }
