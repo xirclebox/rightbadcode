@@ -91,12 +91,12 @@ Where it may appear that accessibility is a design or dev concern, authoring inc
 
 ---
 
-## References:
+### References:
 
 **Understanding WCAG 2.2**  
 [**https://www.w3.org/WAI/WCAG21/quickref/**](https://www.w3.org/WAI/WCAG22/quickref/?versions=2.2)
 
-### Learning Resources
+#### Learning Resources
 
 **Web Content Accessibility Guidelines (WCAG 2.2)**  
 [**https://www.w3.org/WAI/WCAG22/Understanding/**](https://www.w3.org/WAI/WCAG22/Understanding/)

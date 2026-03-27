@@ -233,7 +233,7 @@ Each section starts with a usability heuristic and a link for more information, 
 
 ---
 
-## References:
+### References:
 
 **10 Usability Heuristics for User Interface Design**  
 [https://www.nngroup.com/articles/ten-usability-heuristics/](https://www.nngroup.com/articles/ten-usability-heuristics/)
