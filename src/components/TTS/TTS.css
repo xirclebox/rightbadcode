@@ -212,7 +212,7 @@
   }
 
   .tts-player {
-    padding: var(--size--16);
+    padding: var(--size--12);
   }
 
   .tts-progress-track {
