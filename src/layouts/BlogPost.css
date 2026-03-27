@@ -49,6 +49,10 @@ main {
     letter-spacing: -0.02em;
   }
 
+  h5 {
+    margin-top: var(--size--64);
+  }
+
   p {
     margin-bottom: var(--size--32);
     color: var(--body-copy);
