@@ -108,7 +108,7 @@
 
 .tts-progress-wrap {
   flex: 1 1 var(--size--96);
-  display: flex;
+  display: none;
   align-items: center;
   gap: var(--size--24);
   min-width: var(--size--96);
@@ -214,6 +214,10 @@
 
   .tts-player {
     padding: var(--size--12) 0;
+  }
+
+  .tts-progress-wrap {
+    display: flex;
   }
 
   .tts-progress-track {
