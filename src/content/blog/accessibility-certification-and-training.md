@@ -10,21 +10,21 @@ heroImage: '../../assets/tips.jpg'
 
 This list of resources is for anyone wanting to learn more about accessibility to gain a deeper understanding and or further their career. I recommend obtaining a certification through the [International Association of Accessibility Professionals (IAAP)](https://www.accessibilityassociation.org/s/certification).
 
-## **Certifications for Developers**
+## Certifications for Developers
 
 - [https://www.accessibilityassociation.org/s/certified-professional](https://www.accessibilityassociation.org/s/certified-professional)
 - [https://www.accessibilityassociation.org/s/wascertification](https://www.accessibilityassociation.org/s/wascertification)
 
-## **Certification Preparation for Developers**
+## Certification Preparation for Developers
 
 - [https://dequeuniversity.com/](https://dequeuniversity.com/)
 - [https://www.accessibilityassociation.org/s/certification-preparation-providers](https://www.accessibilityassociation.org/s/certification-preparation-providers)
 
-## **Certifications for Copywriters**
+## Certifications for Copywriters
 
 - [https://www.accessibilityassociation.org/s/accessible-document-specialist](https://www.accessibilityassociation.org/s/accessible-document-specialist)
 
-## **Additional training for Copywriters**
+## Additional training for Copywriters
 
 - [https://www.futurelearn.com/courses/introduction-to-content-design](https://www.futurelearn.com/courses/introduction-to-content-design)
 - [https://www.deque.com/blog/accessibility-strategies-for-your-content-team/](https://www.deque.com/blog/accessibility-strategies-for-your-content-team/)

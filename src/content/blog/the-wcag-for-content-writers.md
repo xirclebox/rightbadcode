@@ -10,7 +10,7 @@ heroImage: '../../assets/post2.jpg'
 
 Where it may appear that accessibility is a design or dev concern, authoring inclusive content is a big part of a project's accessibility efforts. From the document's structure to the relationship between labels and components, content helps lead, inform, and instruct throughout the user's journey. To help improve the usability of their products and strengthen accessibility support, content writers can utilize the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/WCAG22/Understanding/) to conform to accessibility standards. The WCAG is divided into four sections: Perceivable, Operable, Understandable, and Robust. Within these four sections are Success Criteria (SC), which serve as guidelines for conformance. The following SC cover content-related tasks that authors can directly impact or influence.
 
-## **Perceivable**
+## Perceivable
 
 ### 1.1 Text Alternatives
 
@@ -44,7 +44,7 @@ Where it may appear that accessibility is a design or dev concern, authoring inc
 - [1.4.10 Reflow](https://www.w3.org/WAI/WCAG22/Understanding/reflow)
 - [1.4.12 Text Spacing](https://www.w3.org/WAI/WCAG22/Understanding/text-spacing)
 
-## **Operable**
+## Operable
 
 ### 2.4 Navigable
 
@@ -60,7 +60,7 @@ Where it may appear that accessibility is a design or dev concern, authoring inc
 
 - [2.5.3 Label in Name](https://www.w3.org/WAI/WCAG22/Understanding/label-in-name)
 
-## **Understandable**
+## Understandable
 
 ### 3.1 Readable
 
@@ -82,7 +82,7 @@ Where it may appear that accessibility is a design or dev concern, authoring inc
 - [3.3.3 Error Suggestion](https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion)
 - [3.3.5 Help](https://www.w3.org/WAI/WCAG22/Understanding/help)
 
-## **Robust**
+## Robust
 
 ### 4.1 Compatible
 
@@ -91,12 +91,12 @@ Where it may appear that accessibility is a design or dev concern, authoring inc
 
 ---
 
-### References:
+#### References:
 
 **Understanding WCAG 2.2**  
 [**https://www.w3.org/WAI/WCAG21/quickref/**](https://www.w3.org/WAI/WCAG22/quickref/?versions=2.2)
 
-#### Learning Resources
+##### Learning resources
 
 **Web Content Accessibility Guidelines (WCAG 2.2)**  
 [**https://www.w3.org/WAI/WCAG22/Understanding/**](https://www.w3.org/WAI/WCAG22/Understanding/)
