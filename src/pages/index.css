@@ -50,6 +50,7 @@
     margin: 0 0 var(--size--32) 0;
     line-height: 1.5;
     font-size: var(--font-size--30);
+    font-weight: 600;
   }
 
   .rbc-card__date {
