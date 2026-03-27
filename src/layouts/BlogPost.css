@@ -39,7 +39,7 @@ main {
 .prose {
   max-width: 960px;
   margin: auto;
-  padding: var(--size--16);
+  padding: var(--size--12);
 }
 
 .rbc-content__wrapper {
