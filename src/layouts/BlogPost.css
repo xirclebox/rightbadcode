@@ -46,6 +46,7 @@ main {
   h2 {
     margin-top: var(--size--64);
     font-weight: 500;
+    letter-spacing: -0.02em;
   }
 
   p {

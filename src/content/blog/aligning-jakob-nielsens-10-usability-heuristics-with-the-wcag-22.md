@@ -58,7 +58,7 @@ Each section starts with a usability heuristic and a link for more information, 
 
 - [1.3.3 Sensory Characteristics](https://www.w3.org/WAI/WCAG22/quickref/#sensory-characteristics)
 - [1.3.4 Orientation](https://www.w3.org/WAI/WCAG22/quickref/#orientation)
-- [1.3.5 Identify](https://www.w3.org/WAI/WCAG22/Understanding/orientation) [Input Purpose](https://www.w3.org/WAI/WCAG22/quickref/#identify-input-purpose)
+- [1.3.5 Identify](https://www.w3.org/WAI/WCAG22/Understanding/orientation)
 - [1.3.6 Identify Purpose](https://www.w3.org/WAI/WCAG22/quickref/?versions=2.2&currentsidebar=%23col_overview#identify-purpose)
 - [1.4.2 Audio Control](https://www.w3.org/WAI/WCAG22/quickref/?versions=2.2&currentsidebar=%23col_overview#audio-control)
 - [1.4.4 Resize text](https://www.w3.org/WAI/WCAG22/quickref/?versions=2.2&currentsidebar=%23col_overview#resize-text)
