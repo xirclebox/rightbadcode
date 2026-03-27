@@ -45,6 +45,7 @@ main {
 .rbc-content__wrapper {
   h2 {
     margin-top: var(--size--64);
+    font-weight: 500;
   }
 
   p {
