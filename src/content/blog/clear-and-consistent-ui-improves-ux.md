@@ -18,7 +18,7 @@ This also applies to UI elements. For example, icons associated with links and b
 
 ---
 
-## **References:**
+## References:
 
 **Aligning Jakob Nielsen's 10 Usability Heuristics with the WCAG 2.1**  
 [https://rightbadcode.com/aligning-jakob-nielsens-10-usability-heuristics-with-the-wcag-21#heading-4-consistency-and-standards](https://rightbadcode.com/aligning-jakob-nielsens-10-usability-heuristics-with-the-wcag-21#heading-4-consistency-and-standards)
