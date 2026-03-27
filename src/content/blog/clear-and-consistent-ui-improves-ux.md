@@ -20,11 +20,11 @@ This also applies to UI elements. For example, icons associated with links and b
 
 ### References
 
-**Aligning Jakob Nielsen's 10 Usability Heuristics with the WCAG 2.1**  
-[https://rightbadcode.com/aligning-jakob-nielsens-10-usability-heuristics-with-the-wcag-21#heading-4-consistency-and-standards](https://rightbadcode.com/aligning-jakob-nielsens-10-usability-heuristics-with-the-wcag-21#heading-4-consistency-and-standards)
+Aligning Jakob Nielsen's 10 Usability Heuristics with the WCAG 2.1
+[https://rightbadcode.com/aligning-jakob-nielsens-10-usability-heuristics-with-the-wcag-22/#4-consistency-and-standards](https://rightbadcode.com/aligning-jakob-nielsens-10-usability-heuristics-with-the-wcag-22/#4-consistency-and-standards)
 
-**WCAG SC 3.2.4 Consistent Identification (Level AA)**  
+WCAG SC 3.2.4 Consistent Identification (Level AA)  
 [https://www.w3.org/WAI/WCAG21/Understanding/consistent-identification.html](https://www.w3.org/WAI/WCAG21/Understanding/consistent-identification.html)
 
-**Determining Causes and Severity of End-User Frustration**  
+Determining Causes and Severity of End-User Frustration
 [https://www.tandfonline.com/doi/abs/10.1207/s15327590ijhc1703_3](https://www.tandfonline.com/doi/abs/10.1207/s15327590ijhc1703_3)

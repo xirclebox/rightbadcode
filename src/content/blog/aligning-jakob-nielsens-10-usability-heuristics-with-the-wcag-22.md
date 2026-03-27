@@ -235,11 +235,11 @@ Each section starts with a usability heuristic and a link for more information, 
 
 ### References
 
-**10 Usability Heuristics for User Interface Design**  
+10 Usability Heuristics for User Interface Design
 [https://www.nngroup.com/articles/ten-usability-heuristics/](https://www.nngroup.com/articles/ten-usability-heuristics/)
 
-**Understanding WCAG 2.2**  
+Understanding WCAG 2.2  
 [https://www.w3.org/WAI/WCAG21/quickref/](https://www.w3.org/WAI/WCAG22/quickref/?versions=2.2)
 
-**The WebAIM Million**  
+The WebAIM Million  
 [https://webaim.org/projects/million/#contrast](https://webaim.org/projects/million/#contrast)

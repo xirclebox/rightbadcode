@@ -93,19 +93,19 @@ Where it may appear that accessibility is a design or dev concern, authoring inc
 
 #### References
 
-**Understanding WCAG 2.2**  
-[**https://www.w3.org/WAI/WCAG21/quickref/**](https://www.w3.org/WAI/WCAG22/quickref/?versions=2.2)
+Understanding WCAG 2.2  
+[https://www.w3.org/WAI/WCAG21/quickref/](https://www.w3.org/WAI/WCAG22/quickref/?versions=2.2)
 
 ##### Learning resources
 
-**Web Content Accessibility Guidelines (WCAG 2.2)**  
-[**https://www.w3.org/WAI/WCAG22/Understanding/**](https://www.w3.org/WAI/WCAG22/Understanding/)
+Web Content Accessibility Guidelines (WCAG 2.2) 
+[https://www.w3.org/WAI/WCAG22/Understanding/](https://www.w3.org/WAI/WCAG22/Understanding/)
 
-**Writing Accessible Content for the Web**  
-[**https://www.a11y-collective.com/product/writing-accessible-content-for-the-web/**](https://www.a11y-collective.com/product/writing-accessible-content-for-the-web/)
+Writing Accessible Content for the Web  
+[https://www.a11y-collective.com/product/writing-accessible-content-for-the-web/](https://www.a11y-collective.com/product/writing-accessible-content-for-the-web/)
 
-**Writing Clearly and Simply**  
-[**https://webaim.org/techniques/writing/**](https://webaim.org/techniques/writing/)
+Writing Clearly and Simply  
+[https://webaim.org/techniques/writing/](https://webaim.org/techniques/writing/)
 
-**Accessible Document Specialist (ADS)**  
-[**https://www.accessibilityassociation.org/s/accessible-document-specialist**](https://www.accessibilityassociation.org/s/accessible-document-specialist)
+Accessible Document Specialist (ADS)  
+[https://www.accessibilityassociation.org/s/accessible-document-specialist](https://www.accessibilityassociation.org/s/accessible-document-specialist)
