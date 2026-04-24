@@ -1,11 +1,8 @@
 footer {
-  padding: 2em var(--size--20) 6em var(--size--20);
+  padding: var(--size--20) var(--size--16) var(--size--64) var(--size--16);
   text-align: center;
-}
 
-.social-links {
-  display: flex;
-  justify-content: center;
-  gap: var(--size--20);
-  margin-top: var(--size--20);
+  .copyright {
+    margin-bottom: var(--size--16);
+  }
 }
