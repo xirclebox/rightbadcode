@@ -8,7 +8,7 @@ draft: false
 heroImage: '../../assets/tips.jpg'
 ---
 
-This list of resources is for anyone wanting to learn more about accessibility to gain a deeper understanding and or further their career. I recommend obtaining a certification through the [International Association of Accessibility Professionals (IAAP)](https://www.accessibilityassociation.org/s/certification).
+This list of resources is for anyone wanting to learn more about accessibility to gain a deeper understanding and or further their career. I recommend obtaining a certification through the [International Association of Accessibility Professionals (IAAP)](https://www.accessibilityassociation.org/s/certification){:target="_blank"}.
 
 ## Certifications for Developers
 
