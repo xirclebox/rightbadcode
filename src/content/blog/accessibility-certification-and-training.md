@@ -55,7 +55,7 @@ This list of resources is for anyone wanting to learn more about accessibility t
 - [https://frontendmasters.com/teachers/marcy-sutton/](https://frontendmasters.com/teachers/marcy-sutton/)
 - [https://www.w3.org/WAI/courses/foundations-course/](https://www.w3.org/WAI/courses/foundations-course/)
 - [https://www.deque.com/blog/](https://www.deque.com/blog/)
-- [https://develope](https://www.w3.org/WAI/courses/foundations-course/)
+- [https://www.w3.org/WAI/courses/foundations-course/](https://www.w3.org/WAI/courses/foundations-course/)
 - [https://developers.google.com/web/fundamentals/accessibility/](https://developers.google.com/web/fundamentals/accessibility/)
 - [https://webaim.org/training/](https://webaim.org/training/)
 - [https://www.colorblind.fyi](https://www.colorblind.fyi)
