@@ -64,6 +64,7 @@
     display: flex;
     gap: var(--size--8);
     justify-self: end;
+    flex-wrap: wrap;
   }
 
   .rbc-card__tag {
