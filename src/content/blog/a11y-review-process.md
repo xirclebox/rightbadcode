@@ -8,7 +8,7 @@ draft: false
 heroImage: '../../assets/post2.jpg'
 ---
 
-The accessibility review process is when process flows, content, user experience (UX), user interface (UI) design, and code are reviewed to mitigate possible accessibility issues. Ideally, such reviews begin at the start of the product development process until the launch. Reviews are conducted with the knowledge of the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/WCAG22/Understanding/) and other resources that pertain to accessibility. There are four sections of the WCAG and three testable conformance levels. The four sections are Perceivable, Operable, Understandable, and Robust. The three levels are A, AA, and AAA. With a starting goal to comply with Level AA, the various guidelines within the four sections must be passed. The following high-level descriptions explain the process necessary to evaluate the conformance level of our applications. The reviews are categorized as "Project" and "Product."
+The accessibility review process is when process flows, content, user experience (UX), user interface (UI) design, and code are reviewed to mitigate possible accessibility issues. Ideally, such reviews begin at the start of the product development process until the launch. Reviews are conducted with the knowledge of the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/WCAG22/Understanding/) and other resources that pertain to accessibility. There are four sections of the WCAG and three testable conformance levels. The four sections are Perceivable, Operable, Understandable, and Robust. The three levels are A, AA, and AAA. With a starting goal to comply with Level AA, the various guidelines within the four sections must be passed. The following high-level descriptions explain the process necessary to evaluate the conformance level of the products. The reviews are categorized as "Project" and "Product."
 
 ## Project Reviews
 
@@ -27,7 +27,7 @@ Just like how mental models are employed to understand how to interact with comm
 It's important to use plain language when communicating with users. The copy should be informative, meaningful, and clear. An example would be avoiding the heavy use of industry jargon and acronyms.
 
 ### Code Review
-The development of UI components, app features, and app views impact how users interact with and complete tasks. It's imperative that the code authored does not negatively affect the various methods used to interact with our products. For example, the lack of semantic markup in a form can result in input errors, lost data, and wasted time. Another example would be how the lack of semantic markup could prevent a keyboard user from simply navigating the application. 
+The development of UI components, app features, and app views impact how users interact with and complete tasks. It's imperative that the code authored does not negatively affect the various methods used to interact with the products. For example, the lack of semantic markup in a form can result in input errors, lost data, and wasted time. Another example would be how the lack of semantic markup could prevent a keyboard user from simply navigating the application. 
 
 Dev teams should include Accessibility Specialist in the code review process by:
 - Requesting reviews on Github Pull Requests
