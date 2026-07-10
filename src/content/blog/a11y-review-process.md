@@ -3,7 +3,7 @@ title: "My Accessibility Review Process"
 description: ""
 author: "Homer Gaines, CPACC"
 pubDate: July 09, 2026
-tags: [A11y]
+tags: [A11y, Process]
 draft: false
 heroImage: '../../assets/post2.jpg'
 ---
