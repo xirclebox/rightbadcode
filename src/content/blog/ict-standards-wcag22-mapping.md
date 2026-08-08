@@ -160,7 +160,6 @@ Going back this far is over kill, but hey, here we are. So for context, the Acce
 
 Not shown here, [paragraphs (l)–(p)](https://www.access-board.gov/ict/#d22), of the original §1194.22 have no WCAG 1.0 equivalent and were 508-specific additions. Full checkpoint text is available in the [WCAG 1.0 specification](https://www.w3.org/TR/WCAG10/).
 
-
 ---
 
 ### References
