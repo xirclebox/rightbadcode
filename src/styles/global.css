@@ -152,23 +152,6 @@ mark {
   white-space: nowrap;
 }
 
-.rbc-card {
-  opacity: 0;
-  transform: translateY(1rem);
-
-  @media (prefers-reduced-motion: reduce) {
-    animation: none;
-    opacity: 1;
-    transform: none;
-  }
-
-  @supports (animation-timeline: view()) {
-    animation: fade-in-up ease-in-out both;
-    animation-timeline: view();
-    animation-range: entry 0% cover 27%;
-  }
-}
-
 .rbc-logo__heading {
   margin: 0;
 
