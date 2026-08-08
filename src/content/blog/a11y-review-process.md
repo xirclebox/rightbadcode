@@ -5,7 +5,7 @@ author: "Homer Gaines, CPACC"
 pubDate: July 09, 2026
 tags: [A11y, Process]
 draft: false
-heroImage: '../../assets/post2.jpg'
+heroImage: '../../assets/post.jpg'
 ---
 
 The accessibility review process is when process flows, content, user experience (UX), user interface (UI) design, and code are reviewed to mitigate possible accessibility issues. Ideally, such reviews begin at the start of the product development process until the launch. Reviews are conducted with the knowledge of the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/WCAG22/Understanding/) and other resources that pertain to accessibility. There are four sections of the WCAG and three testable conformance levels. The four sections are Perceivable, Operable, Understandable, and Robust. The three levels are A, AA, and AAA. With a starting goal to comply with Level AA, the various guidelines within the four sections must be passed. The following high-level descriptions explain the process necessary to evaluate the conformance level of the products. The reviews are categorized as "Project" and "Product."

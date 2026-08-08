@@ -1,15 +1,16 @@
 ---
 const measurementId = "G-VD15SBV29H"; // Use environment variable for better practice
+const isProd = import.meta.env.PROD;
 ---
-{
-  import.meta.env.PROD && (
+{isProd ? (
+  <>
     <!-- Google tag (gtag.js) -->
     <script
       type="text/partytown"
       async
-      src="https://www.googletagmanager.com/gtag/js?id=G-VD15SBV29H"></script>
+      src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}></script>
     <script type="text/partytown">
-      window.dataLayer = window.dataLayer || [];
+      {`window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
       }
@@ -22,6 +23,8 @@ const measurementId = "G-VD15SBV29H"; // Use environment variable for better pra
         analytics_storage: "denied",
       });
 
-      gtag("config", "G-VD15SBV29H");
+      gtag("config", "${measurementId}");
+      `}
     </script>
-)}
+  </>
+) : null}
