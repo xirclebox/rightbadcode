@@ -131,7 +131,8 @@ blockquote {
 
 hr {
   border: none;
-  border-top: 1px solid rgb(var(--eggplant));
+  border-top: 1px solid var(--eggplant);
+  margin: var(--size--32) 0;
 }
 
 mark {
