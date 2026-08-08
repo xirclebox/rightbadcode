@@ -10,6 +10,15 @@ heroImage: '../../assets/post2.jpg'
 
 I have this thing about [connecting the dots](https://rightbadcode.com/aligning-jakob-nielsens-10-usability-heuristics-with-the-wcag-22/) between the current Web Content Accessibility Guidelines (WCAG) and other documents that relate to accessibility. That way, the relationships are easier to see, reference, and teach. Seeing as how there's a lot of buz around making government sites accessible and agencies scrambling to [make the new deadline](https://www.hhs.gov/press-room/hhs-extends-mobile-and-web-accessibility-deadline.html), I wanted to highlight the similarities between the WCAG and the Revised 508/255 ICT Standards.
 
+## Table of contents
+
+- [How the ICT rule references WCAG](#how-the-ict-rule-references-wcag)
+- [ICT rules that align with the WCAG success criteria](#ict-rules-that-align-with-the-wcag-success-criteria)
+- [WCAG 2.0 A & AA criteria required by the ICT rule, mapped to WCAG 2.2](#wcag-20-a--aa-criteria-required-by-the-ict-rule-mapped-to-wcag-22)
+- [WCAG 2.2 criteria not required by the ICT](#wcag-22-criteria-not-required-by-the-ict)
+- [ICT rules with no WCAG equivalent](#ict-rules-with-no-wcag-equivalent)
+- [Legacy cross-reference: original 2000 Section 508 Standards (§1194.22) to WCAG 1.0](#legacy-cross-reference-original-2000-section-508-standards-119422-to-wcag-10)
+
 ## How the ICT rule references WCAG
 
 Being behind the ball a bit, the Information and communication technology (ICT) rule doesn't point to the current version of the WCAG. It incorporates the [WCAG 2.0](https://www.w3.org/TR/WCAG20/) by reference [702.10.1](https://www.access-board.gov/ict/#702-10-1) and requires Level A and Level AA conformance. Because the WCAG 2.2 is backward compatible, every 2.0 success criterion (SC) carries the same number, except for "SC 4.1.1 Parsing" which was deprecated. The WCAG 2.0 Levels along with the ICT rules map one-to-one onto a subset of today's WCAG 2.2 Levels. The ICT rule's text does not require the newer criteria added to the WCAG 2.2 however, it would be in the best interest for agencies to apply 2.2. That way, when the old requirements catch up to modern times, those who have been aiming for 2.2 will be ahead of the game.
