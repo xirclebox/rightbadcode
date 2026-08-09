@@ -38,7 +38,7 @@ Being behind the ball a bit, the Information and communication technology (ICT) 
 
 Where a document or non-Web software substitution applies, the rule also swaps the term "Web page" or "page" for "document" or "software" in the SC text [E205.4.1](https://www.access-board.gov/ict/#E205-content), [E207.2.1](https://www.access-board.gov/ict/#E207-software), [C203.1.1](https://www.access-board.gov/ict/#C203-electronic-content), [C205.2.1](https://www.access-board.gov/ict/#C205-software).
 
-## WCAG 2.0 A & AA criteria required by the ICT rule, mapped to WCAG 2.2
+## WCAG 2.0 Levels A & AA criteria required by the ICT rule, mapped to WCAG 2.2
 
 The following 38 success criteria are the ones the ICT rule requires. Numbering and titles are unchanged, so each maps directly to the current WCAG 2.2 SC.
 
