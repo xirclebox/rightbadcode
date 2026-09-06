@@ -49,6 +49,7 @@ h6 {
   margin: 0 0 var(--size--8) 0;
   color: var(--soft-snow);
   line-height: 1.2;
+  word-spacing: var(--size--4);
 }
 
 h1 {
@@ -64,11 +65,15 @@ h3 {
 }
 
 h4 {
-  font-size: var(--font-size--20);
+  font-size: var(--font-size--18);
+  font-weight: 600;
+  color: var(--soft-snow);
 }
 
 h5 {
-  font-size: var(--font-size--20);
+  font-size: var(--font-size--16);
+  font-weight: 600;
+  color: var(--soft-snow);
 }
 
 strong {
@@ -99,7 +104,8 @@ input {
 }
 
 img {
-  max-width: 100%;
+  max-width: 960px;
+  width: 100%;
   height: auto;
   display: flex;
   justify-self: center;
