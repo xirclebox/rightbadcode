@@ -1,9 +1,9 @@
 ---
-title: "I launched a product by accident"
+title: "I Launched A Product By Accident"
 description: ""
 author: "Homer Gaines, CPACC"
 pubDate: Sept 6, 2026
-tags: [A11y, UX, product]
+tags: [A11y, UX, Product]
 draft: false
 heroImage: "../../assets/post.jpg"
 ---
