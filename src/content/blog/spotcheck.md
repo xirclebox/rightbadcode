@@ -1,5 +1,5 @@
 ---
-title: "I launched a product by accident"
+title: "I Launched A Product By Accident"
 description: ""
 author: "Homer Gaines, CPACC"
 pubDate: Sept 6, 2026
