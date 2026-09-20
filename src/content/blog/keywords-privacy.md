@@ -8,11 +8,11 @@ draft: true
 heroImage: "../../assets/post2.jpg"
 ---
 
-Working with medical software, has made me more aware of potential ways a person's protected info could be accidentally exposed through practical means. <a href="https://rightbadcode.com/aria-labels-and-privacy-a-word-of-caution/" rel="noopener noreferrer" target="_blank">My first word of caution</a> was about how unique `aria-labels` could expose personally identifiable information (PII) in analytic software. Something I've been thinking about as of late is how CSS `@media` features could be used to infer a person's disability. Now, before we get too deep in this, let me start by saying that someone's <a href="https://www.ada.gov/topics/intro-to-ada/" rel="noopener noreferrer" target="_blank">disability status is a protected class</a> under the Americans with Disabilities Act (ADA) and a special category of personal data under the <a href="https://gdpr-info.eu/art-9-gdpr/" rel="noopener noreferrer" target="_blank">General Data Protection Regulation (GDPR) Article 9</a>. Inferring a protected status from the user's settings or behavioral patterns and acting on that knowledge is highly unethical and illegal. The content within this post should not be used a blueprint for such behavior. Now, with that being said, I'm sure anyone working in accessibility has been asked or has heard this question...
+Working with medical software, has made me more aware of potential ways a person's protected info could be accidentally exposed through practical means. <a href="https://rightbadcode.com/aria-labels-and-privacy-a-word-of-caution/" rel="noopener noreferrer" target="_blank">My first word of caution</a> was about how unique `aria-labels` could expose personally identifiable information (PII) in analytic software. Something I've been thinking about as of late is how CSS `@media` features could be used to infer a person's disability. Now, before we get too deep in this, let me start by saying that someone's <a href="https://www.ada.gov/topics/intro-to-ada/" rel="noopener noreferrer" target="_blank">disability status is a protected class</a> under the Americans with Disabilities Act (ADA) and a special category of personal data under the <a href="https://gdpr-info.eu/art-9-gdpr/" rel="noopener noreferrer" target="_blank">General Data Protection Regulation (GDPR) Article 9</a>. Inferring a protected status from the user's settings or behavioral patterns and acting on that knowledge is highly **unethical** and **illegal**. The content within this post should not be used a blueprint for such behavior. Now, with that being said, I'm sure anyone working in accessibility has been asked or has heard this question...
 
-> Can't we just check to see if someone is using assistive tech?
+> "Can't we just check to see if someone is using assistive tech?"
 
-TL;DR answer ... No.
+TL;DR answer ... **No**.
 
 The reason is because <a href="https://www.w3.org/TR/design-principles/#do-not-expose-use-of-assistive-tech" rel="noopener noreferrer" target="_blank">browsers don't expose the use of assistive tech</a> to protect the user's privacy and to prevent discrimination. In addition to this, assistive tech, such as screen readers, don't run in the browser so there's nothing to detect.
 
@@ -53,11 +53,11 @@ For example, this script checks the value of the `prefers-reduced-motion` featur
 })();
 ```
 
-In one scenario, maybe this insight informs the team about how the visitors feel about the use of parallax on the site. Before user testing became more common, my team had to use interaction data to determine if our users were interacting with the tooltips at all. Turns out they weren't. As a result, we pulled tooltips from the UI and changed the UX pattern.
+Take this scenario. Say it's a small team and they use analytics to inform their design decisions. They use this method to gain insight into how their visitors feel about the use of parallax. Before user testing became more common, my team used anonymous data to determine if our users were interacting with the tooltips at all. Turns out they weren't. As a result, we pulled tooltips from the UI and changed the UX pattern.
 
-However, keeping the original question about tracking in mind, where collecting data like this crosses the line is when the state of `prefers-reduced-motion` is used to assume the use of assistive tech and/or pairing it with a user/session ID to infer someone's protected status. It's a loose argument to do so in the first place because it's not an exact science. Just because a person has this feature active does not mean they have a vestibular disorder. They could be someone who simply can't stand parallax animations.
+However, keeping the original question about tracking in mind, collecting data like this crosses the line when the state of `prefers-reduced-motion` is used to assume the use of assistive tech and/or pairing it with a user/session ID to infer that user's protected status. I've seen some weak attempts to try and sidestep accessibility, and this argument is just as loose because it's speculative. Just because a person has this feature active does not mean they have a vestibular disorder. They could be someone who simply can't stand parallax animations.
 
-Though the use of media features is very common in CSS and safe, the connecting of the dots to expose PII is a deliberate act and again, illegal. Staying aware how PII can be exposed and understanding the risks can help protect your users, yourself and the integrity of your application.
+Though the use of media features is very common in CSS and alone, do not expose PII. It's the connecting of the dots to expose PII that is illegal. Staying aware how PII can be exposed and understanding the risks can help protect your users, yourself and the integrity of your application.
 
 ---
 
