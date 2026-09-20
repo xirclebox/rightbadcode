@@ -117,16 +117,16 @@ code {
   color: var(--light);
 }
 
+pre > code {
+  all: unset;
+}
+
 pre {
   padding: var(--size--24);
   border-radius: var(--radius);
-  background-color: var(--dark);
+  background-color: var(--pre-background) !important;
   margin-bottom: var(--size--32);
   width: 100%;
-}
-
-pre > code {
-  all: unset;
 }
 
 blockquote {
