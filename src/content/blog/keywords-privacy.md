@@ -57,7 +57,7 @@ Take this scenario. Say it's a small team and they use analytics to inform their
 
 However, keeping the original question about tracking in mind, collecting data like this crosses the line when the state of `prefers-reduced-motion` is used to assume the use of assistive tech and/or pairing it with a user/session ID to infer that user's protected status. I've seen some weak attempts to try and sidestep accessibility, and this argument is just as loose because it's speculative. Just because a person has this feature active does not mean they have a vestibular disorder. They could be someone who simply can't stand parallax animations.
 
-Though the use of media features is very common in CSS and alone, do not expose PII. It's the connecting of the dots to expose PII that is illegal. Staying aware how PII can be exposed and understanding the risks can help protect your users, yourself and the integrity of your application.
+Though the use of media features is very common in CSS and alone do not expose PII. It's the connecting of the dots to expose PII that is illegal. Staying aware of how PII can be exposed and understanding the risks can help protect your users, yourself, and the integrity of your application.
 
 ---
 
