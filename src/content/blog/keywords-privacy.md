@@ -1,5 +1,5 @@
 ---
-title: "CSS Media Features and Privacy"
+title: "CSS Media Features and Privacy: A Word of Caution"
 description: ""
 author: "Homer Gaines, CPACC"
 pubDate:
