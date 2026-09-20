@@ -2,7 +2,7 @@
 title: "CSS Media Features and Privacy"
 description: ""
 author: "Homer Gaines, CPACC"
-pubDate: Sept 7, 2026
+pubDate:
 tags: [A11y, CSS, Privacy]
 draft: true
 heroImage: "../../assets/post2.jpg"
