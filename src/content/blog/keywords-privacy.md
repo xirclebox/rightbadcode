@@ -2,9 +2,9 @@
 title: "CSS Media Features and Privacy: A Word of Caution"
 description: ""
 author: "Homer Gaines, CPACC"
-pubDate:
+pubDate: 09/20/2026
 tags: [A11y, CSS, Privacy]
-draft: true
+draft: false
 heroImage: "../../assets/post2.jpg"
 ---
 
