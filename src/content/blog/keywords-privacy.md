@@ -74,8 +74,6 @@ Here's a list of `@media` features that map to WCAG SC
 
 ---
 
-<div class="card__post-content">
-
 ### Prefers-reduced-motion
 
 **Feature:** `@media (prefers-reduced-motion: <value>)`
@@ -90,11 +88,7 @@ A user would enabled this system setting to reduce motion, to avoid vestibular d
 
 - <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-motion" rel="noopener noreferrer" target="_blank">prefers-reduced-motion</a>
 
-</div>
-
 ---
-
-<div class="card__post-content">
 
 ### Prefers-contrast
 
@@ -110,11 +104,7 @@ The user would enable this setting if they prefer higher or lower contrast due t
 
 - <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-contrast" rel="noopener noreferrer" target="_blank">prefers-contrast</a>
 
-</div>
-
 ---
-
-<div class="card__post-content">
 
 ### Forced-colors
 
@@ -136,11 +126,7 @@ This is used to allow the user to define colors at the OS level to override colo
 
 - <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/forced-colors" rel="noopener noreferrer" target="_blank">Forced-colors</a>
 
-</div>
-
 ---
-
-<div class="card__post-content">
 
 ### Update
 
@@ -156,11 +142,7 @@ This applies to animation viability on E-ink and low-refresh devices.
 
 - <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/update" rel="noopener noreferrer" target="_blank">Update</a>
 
-</div>
-
 ---
-
-<div class="card__post-content">
 
 ### Pointer
 
@@ -180,10 +162,6 @@ Related to target sizing and hover-dependent UI which can impact users with limi
 
 - <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/pointer" rel="noopener noreferrer" target="_blank">Pointer</a>
 
-</div>
-
-<div class="card__post-content">
-
 ---
 
 ### Monochrome
@@ -199,5 +177,3 @@ Color as sole information carrier
 #### CSS Reference
 
 - <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/monochrome" rel="noopener noreferrer" target="_blank">monochrome</a>
-
-</div>
