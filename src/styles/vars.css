@@ -27,4 +27,5 @@
   --font-size--72: clamp(4.5rem, 3.6rem + 4.5vw, 6rem);
 
   --radius: var(--size--4);
+  --letter-spacing: 0.0125rem;
 }
