@@ -4,11 +4,12 @@
   --accent: #ff00ff;
   --accent-dark: #181720;
   --soft-lavender: #d8d3ed;
+  --mute-lavender: #b8b2d3;
   --soft-snow: #ebecee;
   --eggplant: #433c62;
 
   --site-background: var(--accent-dark);
-  --body-copy: var(--soft-lavender);
+  --body-copy: var(--mute-lavender);
   --code-background: #38325c;
   --pre-background: #0f0e14;
   --link-color: #59d3ff;

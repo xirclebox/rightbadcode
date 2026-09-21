@@ -129,11 +129,15 @@ pre {
   width: 100%;
 }
 
-blockquote {
+.rbc-content__wrapper blockquote {
   border-left: 4px solid var(--accent);
   padding: var(--size--12) var(--size--20);
   margin: var(--size--64) 0;
   font-size: var(--font-size--24);
+
+  p {
+    color: var(--soft-snow);
+  }
 }
 
 hr {
