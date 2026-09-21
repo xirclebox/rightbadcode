@@ -1,16 +1,17 @@
 ---
 const measurementId = "G-VD15SBV29H"; // Use environment variable for better practice
-const isProd = import.meta.env.PROD;
 ---
-{isProd ? (
-  <>
-    <!-- Google tag (gtag.js) -->
-    <script
-      type="text/partytown"
-      async
-      src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}></script>
-    <script type="text/partytown">
-      {`window.dataLayer = window.dataLayer || [];
+
+<>
+  <!-- Google tag (gtag.js) -->
+  <script
+    type="text/partytown"
+    async
+    src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}
+  ></script>
+  <script type="text/partytown">
+    {
+      `window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
       }
@@ -24,7 +25,7 @@ const isProd = import.meta.env.PROD;
       });
 
       gtag("config", "${measurementId}");
-      `}
-    </script>
-  </>
-) : null}
+      `;
+    }
+  </script>
+</>
