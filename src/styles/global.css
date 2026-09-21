@@ -126,7 +126,6 @@ pre {
   border-radius: var(--radius);
   background-color: var(--pre-background) !important;
   margin-bottom: var(--size--32);
-  width: 100%;
 }
 
 .rbc-content__wrapper blockquote {
