@@ -115,6 +115,7 @@ code {
   padding: var(--size--2) var(--size--8);
   background: var(--code-background);
   color: var(--light);
+  border-radius: var(--radius);
 }
 
 pre > code {
@@ -126,6 +127,11 @@ pre {
   border-radius: var(--radius);
   background-color: var(--pre-background) !important;
   margin-bottom: var(--size--32);
+  white-space: pre-wrap;
+
+  .line {
+    color: var(--pre-line);
+  }
 }
 
 .rbc-content__wrapper blockquote {
