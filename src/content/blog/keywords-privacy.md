@@ -24,7 +24,7 @@ Another motivating factor is that the person pushing back wants to collect data 
 
 ## The potential risk
 
-Knowing that we can't detect assistive tech directly. But by using JavaScript, there are CSS features that map to current Success Criteria (SC) in the Web Content Accessibility Guidelines (WCAG) that can be detected.
+Knowing that we can't detect assistive tech directly, by using JavaScript, there are CSS features that map to current Success Criteria (SC) in the Web Content Accessibility Guidelines (WCAG) that can be detected.
 
 For example, this script checks the value of the `prefers-reduced-motion` feature, which is related to <a href="https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions" rel="noopener noreferrer" target="_blank">WCAG SC 2.3.3 Animation from Interactions</a>. The `console.log`, for demo purposes, prints `reduce` or `no-preference` depending on the state.
 
