@@ -84,7 +84,7 @@ A user would enabled this system setting to reduce motion, to avoid vestibular d
 
 - <a href="https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions" rel="noopener noreferrer" target="_blank">2.3.3 Animation from Interactions</a>
 
-#### CSS Reference
+#### CSS reference
 
 - <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-motion" rel="noopener noreferrer" target="_blank">prefers-reduced-motion</a>
 
@@ -100,7 +100,7 @@ The user would enable this setting if they prefer higher or lower contrast due t
 
 - <a href="https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced" rel="noopener noreferrer" target="_blank">1.4.6 Contrast Enhanced</a>
 
-#### CSS Reference
+#### CSS reference
 
 - <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-contrast" rel="noopener noreferrer" target="_blank">prefers-contrast</a>
 
@@ -122,7 +122,7 @@ This is used to allow the user to define colors at the OS level to override colo
 
 - <a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast" rel="noopener noreferrer" target="_blank">1.4.11 Non-text Contrast</a>
 
-#### CSS Reference
+#### CSS reference
 
 - <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/forced-colors" rel="noopener noreferrer" target="_blank">Forced-colors</a>
 
@@ -138,7 +138,7 @@ This applies to animation viability on E-ink and low-refresh devices.
 
 - <a href="https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide" rel="noopener noreferrer" target="_blank">2.2.2 Pause, Stop, Hide</a>
 
-#### CSS Reference
+#### CSS reference
 
 - <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/update" rel="noopener noreferrer" target="_blank">Update</a>
 
@@ -158,7 +158,7 @@ Related to target sizing and hover-dependent UI which can impact users with limi
 
 - <a href="https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum" rel="noopener noreferrer" target="_blank">2.5.8 Target Size (Minimum)</a>
 
-#### CSS Reference
+#### CSS reference
 
 - <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/pointer" rel="noopener noreferrer" target="_blank">Pointer</a>
 
@@ -174,6 +174,6 @@ Color as sole information carrier
 
 - <a href="https://www.w3.org/WAI/WCAG22/Understanding/use-of-color" rel="noopener noreferrer" target="_blank">1.4.1 Use of Color</a>
 
-#### CSS Reference
+#### CSS reference
 
 - <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/monochrome" rel="noopener noreferrer" target="_blank">monochrome</a>
